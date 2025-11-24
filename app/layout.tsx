@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: 'Lite',
   description: 'BITS Pilani! Its Tragic!',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
