@@ -71,10 +71,12 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={`font-sans antialiased bg-neutral-950`}>
-        <ColorProvider>
-          {children}
-          <Toaster />
-        </ColorProvider>
+        <div style={{ paddingTop: 'env(safe-area-inset-top)' }}>
+          <ColorProvider>
+            {children}
+            <Toaster />
+          </ColorProvider>
+        </div>
       </body>
     </html>
   );
