@@ -1,0 +1,3529 @@
+{
+  "courses": [
+    {
+      "code": "BIO F110",
+      "name": "Biology Laboratory",
+      "credits": 1
+    },
+    {
+      "code": "MATH F112",
+      "name": "Mathematics II",
+      "credits": 3
+    },
+    {
+      "code": "BIO F111",
+      "name": "General Biology",
+      "credits": 3
+    },
+    {
+      "code": "ME F112",
+      "name": "Workshop Practice",
+      "credits": 2
+    },
+    {
+      "code": "CHEM F110",
+      "name": "Chemistry Laboratory",
+      "credits": 1
+    },
+    {
+      "code": "CS F111",
+      "name": "Computer Programming",
+      "credits": 4
+    },
+    {
+      "code": "CHEM F111",
+      "name": "General Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "EEE F111",
+      "name": "Electrical Sciences",
+      "credits": 3
+    },
+    {
+      "code": "MATH F111",
+      "name": "Mathematics I",
+      "credits": 3
+    },
+    {
+      "code": "BITS F112",
+      "name": "Technical Report Writing",
+      "credits": 2
+    },
+    {
+      "code": "PHY F110",
+      "name": "Physics Laboratory",
+      "credits": 1
+    },
+    {
+      "code": "MATH F113",
+      "name": "Probability and Statistics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F111",
+      "name": "Mechanics, Oscillations and Waves",
+      "credits": 3
+    },
+    {
+      "code": "BITS F111",
+      "name": "Thermodynamics",
+      "credits": 3
+    },
+    {
+      "code": "BITS F110",
+      "name": "Engineering Graphics",
+      "credits": 2
+    },
+    {
+      "code": "BIOT F211",
+      "name": "Biological Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F212",
+      "name": "Microbiology",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F213",
+      "name": "Cell biology",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F215",
+      "name": "Biophysics",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F241",
+      "name": "Genetic Engineering Techniques",
+      "credits": 1
+    },
+    {
+      "code": "BIOT F243",
+      "name": "Genetics",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F244",
+      "name": "Instrumental Methods of Analysis",
+      "credits": 1
+    },
+    {
+      "code": "BIOT F245",
+      "name": "Intro to Environmental Biotechnology",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F311",
+      "name": "Recombinant DNA Technology",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F314",
+      "name": "Industrial Microbiology and Bioprocess Engineering",
+      "credits": 2
+    },
+    {
+      "code": "BIOT F342",
+      "name": "Immunology",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F343",
+      "name": "Experiments in Biotechnology",
+      "credits": 0
+    },
+    {
+      "code": "BIOT F344",
+      "name": "Downstream Processing",
+      "credits": 2
+    },
+    {
+      "code": "BIOT F242",
+      "name": "Introduction to Bioinformatics",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F345",
+      "name": "Proteomics",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F346",
+      "name": "Genomics",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F347",
+      "name": "Immunotechnology",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F352",
+      "name": "Cell and Tissue Culture Technology",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F413",
+      "name": "Molecular Biology of the Cell",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F416",
+      "name": "Introduction to Pharmaceutical Biotechnology",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F417",
+      "name": "Biomolecular Modeling",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F420",
+      "name": "Introduction to Plant Biotechnology",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F422",
+      "name": "Nanobiotechnology",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F423",
+      "name": "Drug design and delivery",
+      "credits": 3
+    },
+    {
+      "code": "BIOT F424",
+      "name": "Food Biotechnology",
+      "credits": 3
+    },
+    {
+      "code": "BITS F467",
+      "name": "Bioethics and Biosafety",
+      "credits": 3
+    },
+    {
+      "code": "CHE F211",
+      "name": "Chemical Process Calculations",
+      "credits": 3
+    },
+    {
+      "code": "CHE F212",
+      "name": "Flucode Mechanics",
+      "credits": 3
+    },
+    {
+      "code": "CHE F213",
+      "name": "Chemical Engineering Thermodynamics",
+      "credits": 3
+    },
+    {
+      "code": "CHE F214",
+      "name": "Engineering Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "CHE F241",
+      "name": "Heat Transfer",
+      "credits": 3
+    },
+    {
+      "code": "CHE F242",
+      "name": "Numerical Methods for Chemical Engineers",
+      "credits": 3
+    },
+    {
+      "code": "CHE F244",
+      "name": "Separation Processes I",
+      "credits": 3
+    },
+    {
+      "code": "CHE F311",
+      "name": "Kinetics and Reactor Design",
+      "credits": 3
+    },
+    {
+      "code": "CHE F312",
+      "name": "Chemical Engineering Lab I",
+      "credits": 0
+    },
+    {
+      "code": "CHE F313",
+      "name": "Separation Processes II",
+      "credits": 3
+    },
+    {
+      "code": "CHE F314",
+      "name": "Process Design Principles I",
+      "credits": 3
+    },
+    {
+      "code": "CHE F341",
+      "name": "Chemical Engineering Lab II",
+      "credits": 0
+    },
+    {
+      "code": "CHE F342",
+      "name": "Process Dynamics and Control",
+      "credits": 3
+    },
+    {
+      "code": "CHE F343",
+      "name": "Process Design Principles II",
+      "credits": 3
+    },
+    {
+      "code": "BITS F415",
+      "name": "Introduction to MEMS",
+      "credits": 3
+    },
+    {
+      "code": "BITS F416",
+      "name": "Introduction to Nanoscience",
+      "credits": 3
+    },
+    {
+      "code": "BITS F417",
+      "name": "Microflucodeics and its application",
+      "credits": 4
+    },
+    {
+      "code": "BITS F418",
+      "name": "Introduction to Biomedical Engineering",
+      "credits": 3
+    },
+    {
+      "code": "BITS F429",
+      "name": "Nanotechnology for Renewable Energy and Environment",
+      "credits": 3
+    },
+    {
+      "code": "CHE F411",
+      "name": "Environmental Pollution",
+      "credits": 3
+    },
+    {
+      "code": "CHE F412",
+      "name": "Process Equipment Design",
+      "credits": 3
+    },
+    {
+      "code": "CHE F413",
+      "name": "Process Plant Safety",
+      "credits": 3
+    },
+    {
+      "code": "CHE F414",
+      "name": "Transport Phenomena",
+      "credits": 3
+    },
+    {
+      "code": "CHE F415",
+      "name": "Molecular and Statistical Thermodynamics",
+      "credits": 3
+    },
+    {
+      "code": "CHE F416",
+      "name": "Process Plant Design Project I  - -",
+      "credits": 3
+    },
+    {
+      "code": "CHE F417",
+      "name": "Process Plant Design Project II - -",
+      "credits": 3
+    },
+    {
+      "code": "CHE F418",
+      "name": "Modelling and Simulation in Chemical Engineering",
+      "credits": 3
+    },
+    {
+      "code": "CHE F419",
+      "name": "Chemical Process Technology",
+      "credits": 3
+    },
+    {
+      "code": "CHE F421",
+      "name": "Bio-chemical Engineering",
+      "credits": 3
+    },
+    {
+      "code": "CHE F422",
+      "name": "Petroleum Refining Technology",
+      "credits": 3
+    },
+    {
+      "code": "CHE F423",
+      "name": "Membrane Science and Engineering",
+      "credits": 3
+    },
+    {
+      "code": "CHE F424",
+      "name": "Rheology of Complex Flucodes",
+      "credits": 3
+    },
+    {
+      "code": "CHE F433",
+      "name": "Corrosion Engineering",
+      "credits": 3
+    },
+    {
+      "code": "CHE F471",
+      "name": "Advanced Process Control",
+      "credits": 3
+    },
+    {
+      "code": "CHE F497",
+      "name": "Atomic and Molecular Simulations",
+      "credits": 3
+    },
+    {
+      "code": "CHE F498",
+      "name": "Collocodes and Interface Engineering",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F325",
+      "name": "Polymer Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "ME F323",
+      "name": "Energy Storage Technologies",
+      "credits": 3
+    },
+    {
+      "code": "CE F230",
+      "name": "Civil Engineering Materials",
+      "credits": 4
+    },
+    {
+      "code": "CE F231",
+      "name": "Flucode Mechanics",
+      "credits": 3
+    },
+    {
+      "code": "CE F320",
+      "name": "Design of Reinforced Concrete Structures",
+      "credits": 3
+    },
+    {
+      "code": "CE F321",
+      "name": "Engineering Hydrology",
+      "credits": 3
+    },
+    {
+      "code": "CE F343",
+      "name": "Design of Steel Structures",
+      "credits": 3
+    },
+    {
+      "code": "CE F323",
+      "name": "Introduction  to Environmental Engineering",
+      "credits": 3
+    },
+    {
+      "code": "CE F324",
+      "name": "Numerical Analysis",
+      "credits": 3
+    },
+    {
+      "code": "CE F325",
+      "name": "Fundamentals of Rock Mechanics",
+      "credits": 3
+    },
+    {
+      "code": "CE F345",
+      "name": "Computational Geomechanics",
+      "credits": 3
+    },
+    {
+      "code": "CE F411",
+      "name": "Operation Research for Engineers",
+      "credits": 3
+    },
+    {
+      "code": "CE F412",
+      "name": "Disaster Management",
+      "credits": 3
+    },
+    {
+      "code": "CE F413",
+      "name": "Advanced Structural Design",
+      "credits": 3
+    },
+    {
+      "code": "CE F415",
+      "name": "Design of Prestressed Concrete Structure",
+      "credits": 3
+    },
+    {
+      "code": "CE F416",
+      "name": "Computer Applications in Civil Engineering",
+      "credits": 3
+    },
+    {
+      "code": "CE F420",
+      "name": "Introduction  to Brcodege Engineering",
+      "credits": 3
+    },
+    {
+      "code": "CE F421",
+      "name": "Analysis and Design of FRP Reinforced Concrete Structures",
+      "credits": 3
+    },
+    {
+      "code": "CE F422",
+      "name": "Urban Hydrology",
+      "credits": 2
+    },
+    {
+      "code": "CE F423",
+      "name": "Green Buildings and Energy Conservation",
+      "credits": 3
+    },
+    {
+      "code": "CE F425",
+      "name": "Airport, Railways and Waterways",
+      "credits": 3
+    },
+    {
+      "code": "CE F426",
+      "name": "Geosynthetics and Reinforced Soil Structure",
+      "credits": 3
+    },
+    {
+      "code": "CE F427",
+      "name": "System Modeling and Analysis",
+      "credits": 3
+    },
+    {
+      "code": "CE F428",
+      "name": "Earthquake Resistant Design and Construction",
+      "credits": 3
+    },
+    {
+      "code": "CE F429",
+      "name": "Design of Foundation Systems",
+      "credits": 3
+    },
+    {
+      "code": "CE F430",
+      "name": "Design of Advanced Concrete Structures",
+      "credits": 3
+    },
+    {
+      "code": "CE F431",
+      "name": "Principles of Geographical Information Systems",
+      "credits": 3
+    },
+    {
+      "code": "CE F432",
+      "name": "Structural Dynamics",
+      "credits": 3
+    },
+    {
+      "code": "CE F433",
+      "name": "Remote Sensing and Image Processing",
+      "credits": 3
+    },
+    {
+      "code": "CE F434",
+      "name": "Environmental Impact Assessment",
+      "credits": 3
+    },
+    {
+      "code": "CE F435",
+      "name": "Introduction to Finite Element Methods",
+      "credits": 3
+    },
+    {
+      "code": "CS F211",
+      "name": "Data Structures & Algorithms",
+      "credits": 3
+    },
+    {
+      "code": "CS F212",
+      "name": "Database Systems",
+      "credits": 3
+    },
+    {
+      "code": "CS F213",
+      "name": "Object Oriented Programming",
+      "credits": 3
+    },
+    {
+      "code": "CS F214",
+      "name": "Logic in Computer Science",
+      "credits": 3
+    },
+    {
+      "code": "CS F215",
+      "name": "Digital Design",
+      "credits": 3
+    },
+    {
+      "code": "CS F222",
+      "name": "Discrete Structures for Computer Science",
+      "credits": 3
+    },
+    {
+      "code": "CS F241",
+      "name": "Microprocessors & Interfacing",
+      "credits": 4
+    },
+    {
+      "code": "CS F301",
+      "name": "Principles of Programming Languages",
+      "credits": 2
+    },
+    {
+      "code": "CS F303",
+      "name": "Computer Networks",
+      "credits": 3
+    },
+    {
+      "code": "CS F342",
+      "name": "Computer Architecture",
+      "credits": 3
+    },
+    {
+      "code": "CS F351",
+      "name": "Theory of Computation",
+      "credits": 3
+    },
+    {
+      "code": "CS F363",
+      "name": "Compiler Construction",
+      "credits": 2
+    },
+    {
+      "code": "CS F364",
+      "name": "Design & Analysis of Algorithms",
+      "credits": 3
+    },
+    {
+      "code": "CS F372",
+      "name": "Operating Systems",
+      "credits": 3
+    },
+    {
+      "code": "BITS F311",
+      "name": "Image Processing",
+      "credits": 3
+    },
+    {
+      "code": "BITS F312",
+      "name": "Neural Networks and Fuzzy Logic",
+      "credits": 3
+    },
+    {
+      "code": "BITS F343",
+      "name": "Fuzzy Logic and Applications",
+      "credits": 3
+    },
+    {
+      "code": "BITS F386",
+      "name": "Quantum Information and Computation",
+      "credits": 3
+    },
+    {
+      "code": "BITS F452",
+      "name": "Blockchain Technology",
+      "credits": 3
+    },
+    {
+      "code": "BITS F453",
+      "name": "Computational Learning Theory",
+      "credits": 3
+    },
+    {
+      "code": "BITS F463",
+      "name": "Cryptography",
+      "credits": 3
+    },
+    {
+      "code": "BITS F464",
+      "name": "Machine Learning",
+      "credits": 3
+    },
+    {
+      "code": "BITS F465",
+      "name": "Enterprise Computing",
+      "credits": 3
+    },
+    {
+      "code": "BITS F466",
+      "name": "Service Oriented Computing",
+      "credits": 3
+    },
+    {
+      "code": "CS F314",
+      "name": "Software Development for Portable Devices",
+      "credits": 2
+    },
+    {
+      "code": "CS F315",
+      "name": "Information and Communication Technologies and Development",
+      "credits": 3
+    },
+    {
+      "code": "CS F316",
+      "name": "Quantum Architecture and Programming",
+      "credits": 3
+    },
+    {
+      "code": "CS F317",
+      "name": "Reinforcement Learning",
+      "credits": 3
+    },
+    {
+      "code": "CS F320",
+      "name": "Foundations of Data Science",
+      "credits": 3
+    },
+    {
+      "code": "CS F401",
+      "name": "Multimedia Computing",
+      "credits": 3
+    },
+    {
+      "code": "CS F402",
+      "name": "Computational Geometry",
+      "credits": 3
+    },
+    {
+      "code": "CS F407",
+      "name": "Artificial Intelligence",
+      "credits": 3
+    },
+    {
+      "code": "CS F413",
+      "name": "Internetworking Technologies",
+      "credits": 3
+    },
+    {
+      "code": "CS F415",
+      "name": "Data Mining",
+      "credits": 3
+    },
+    {
+      "code": "CS F422",
+      "name": "Parallel Computing",
+      "credits": 3
+    },
+    {
+      "code": "CS F424",
+      "name": "Software for Embedded Systems",
+      "credits": 3
+    },
+    {
+      "code": "CS F425",
+      "name": "Deep Learning",
+      "credits": 3
+    },
+    {
+      "code": "CS F426",
+      "name": "Graph Mining",
+      "credits": 3
+    },
+    {
+      "code": "CS F427",
+      "name": "Performance Analysis of Computer Networks",
+      "credits": 3
+    },
+    {
+      "code": "CS F428",
+      "name": "Special topic in Computer Science",
+      "credits": 1
+    },
+    {
+      "code": "CS F429",
+      "name": "Natural Language Processing",
+      "credits": 3
+    },
+    {
+      "code": "CS F430",
+      "name": "Approximation Algorithms",
+      "credits": 3
+    },
+    {
+      "code": "CS F431",
+      "name": "Combinatorial Optimization",
+      "credits": 3
+    },
+    {
+      "code": "CS F432",
+      "name": "Brain -inspired Deep Learning",
+      "credits": 3
+    },
+    {
+      "code": "CS F433",
+      "name": "Computational Neuroscience",
+      "credits": 3
+    },
+    {
+      "code": "CS F441",
+      "name": "Selected Topics from Computer Science  - -",
+      "credits": 3
+    },
+    {
+      "code": "CS F444",
+      "name": "Real Time Systems",
+      "credits": 3
+    },
+    {
+      "code": "CS F446",
+      "name": "Data Storage Technologies and Networks",
+      "credits": 3
+    },
+    {
+      "code": "CS F468",
+      "name": "Information Security Project",
+      "credits": 0
+    },
+    {
+      "code": "CS F469",
+      "name": "Information Retrieval",
+      "credits": 3
+    },
+    {
+      "code": "IS F311",
+      "name": "Computer Graphics",
+      "credits": 3
+    },
+    {
+      "code": "IS F341",
+      "name": "Software Engineering",
+      "credits": 3
+    },
+    {
+      "code": "IS F462",
+      "name": "Network Programming",
+      "credits": 3
+    },
+    {
+      "code": "MATH F231",
+      "name": "Number Theory",
+      "credits": 3
+    },
+    {
+      "code": "MATH F421",
+      "name": "Combinatorial Mathematics",
+      "credits": 3
+    },
+    {
+      "code": "MATH F441",
+      "name": "Discrete Mathematical Structures",
+      "credits": 3
+    },
+    {
+      "code": "EEE F211",
+      "name": "Electrical Machines",
+      "credits": 3
+    },
+    {
+      "code": "EEE F212",
+      "name": "Electromagnetic Theory",
+      "credits": 3
+    },
+    {
+      "code": "EEE F214",
+      "name": "Electronic Devices",
+      "credits": 3
+    },
+    {
+      "code": "EEE F215",
+      "name": "Digital Design",
+      "credits": 3
+    },
+    {
+      "code": "EEE F241",
+      "name": "Microprocessors and interfacing",
+      "credits": 4
+    },
+    {
+      "code": "EEE F242",
+      "name": "Control Systems",
+      "credits": 3
+    },
+    {
+      "code": "EEE F243",
+      "name": "Signals & Systems",
+      "credits": 3
+    },
+    {
+      "code": "EEE F244",
+      "name": "Microelectronic Circuits",
+      "credits": 3
+    },
+    {
+      "code": "EEE F311",
+      "name": "Communication Systems",
+      "credits": 3
+    },
+    {
+      "code": "EEE F312",
+      "name": "Power Systems",
+      "credits": 3
+    },
+    {
+      "code": "EEE F313",
+      "name": "Analog & Digital VLSI Design",
+      "credits": 3
+    },
+    {
+      "code": "EEE F341",
+      "name": "Analog Electronics",
+      "credits": 3
+    },
+    {
+      "code": "EEE F342",
+      "name": "Power Electronics",
+      "credits": 3
+    },
+    {
+      "code": "MATH F212",
+      "name": "OR ME F344  Optimization OR Engineering Optimization",
+      "credits": 3
+    },
+    {
+      "code": "CS F451",
+      "name": "Combinatorial Mathematics",
+      "credits": 3
+    },
+    {
+      "code": "ECE F312",
+      "name": "EM Fields and Microwave Engineering Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "ECE F343",
+      "name": "Communication Networks",
+      "credits": 3
+    },
+    {
+      "code": "EEE F216",
+      "name": "Electronic Devices Simulation Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "EEE F245",
+      "name": "Control System Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "EEE F246",
+      "name": "Electrical and Electronic Circuits Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "EEE F345",
+      "name": "Power Apparatus & Networks",
+      "credits": 3
+    },
+    {
+      "code": "EEE F346",
+      "name": "Data Communication Networks",
+      "credits": 2
+    },
+    {
+      "code": "EEE F348",
+      "name": "FPGA Based System Design Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "EEE F411",
+      "name": "Internet of Things",
+      "credits": 3
+    },
+    {
+      "code": "EEE F414",
+      "name": "Telecommunication Switching Systems & Networks",
+      "credits": 3
+    },
+    {
+      "code": "EEE F416",
+      "name": "Digital Communication",
+      "credits": 3
+    },
+    {
+      "code": "EEE F417",
+      "name": "Computer Based Control System",
+      "credits": 3
+    },
+    {
+      "code": "EEE F418",
+      "name": "Modern Communication Technologies",
+      "credits": 3
+    },
+    {
+      "code": "EEE F419",
+      "name": "Flexible and Stretchable Electronics",
+      "credits": 3
+    },
+    {
+      "code": "EEE F420",
+      "name": "Biomedical Signal Processing",
+      "credits": 3
+    },
+    {
+      "code": "EEE F422",
+      "name": "Modern Control Systems",
+      "credits": 3
+    },
+    {
+      "code": "EEE F424",
+      "name": "Smart Grcode for Sustainable",
+      "credits": 3
+    },
+    {
+      "code": "EEE F425",
+      "name": "Power System Analysis and control",
+      "credits": 3
+    },
+    {
+      "code": "EEE F426",
+      "name": "Fiber Optics & Optoelectronics",
+      "credits": 3
+    },
+    {
+      "code": "EEE F427",
+      "name": "Electric Power Utilization and Illumination",
+      "credits": 3
+    },
+    {
+      "code": "EEE F428",
+      "name": "Energy Storage Systems",
+      "credits": 3
+    },
+    {
+      "code": "EEE F429",
+      "name": "Smart Materials and Applications",
+      "credits": 3
+    },
+    {
+      "code": "EEE F430",
+      "name": "Green Communications and Networks",
+      "credits": 3
+    },
+    {
+      "code": "EEE F431",
+      "name": "Mobile Telecommunication Networks",
+      "credits": 3
+    },
+    {
+      "code": "EEE F432",
+      "name": "Medical Instrumentation",
+      "credits": 3
+    },
+    {
+      "code": "EEE F433",
+      "name": "Electromagnetic Fields & Waves",
+      "credits": 3
+    },
+    {
+      "code": "EEE F434",
+      "name": "Digital Signal Processing",
+      "credits": 3
+    },
+    {
+      "code": "EEE F435",
+      "name": "Digital Image Processing",
+      "credits": 3
+    },
+    {
+      "code": "EEE F436",
+      "name": "Electromagnetic Compatibility",
+      "credits": 3
+    },
+    {
+      "code": "EEE F462",
+      "name": "Advanced Power Systems",
+      "credits": 3
+    },
+    {
+      "code": "EEE F472",
+      "name": "Satellite Communication",
+      "credits": 3
+    },
+    {
+      "code": "EEE F473",
+      "name": "Wind Electrical Systems",
+      "credits": 3
+    },
+    {
+      "code": "EEE F474",
+      "name": "Antenna Theory and Design",
+      "credits": 3
+    },
+    {
+      "code": "EEE F475",
+      "name": "Special Electrical Machines",
+      "credits": 3
+    },
+    {
+      "code": "EEE F476",
+      "name": "Switchgear and Protection",
+      "credits": 3
+    },
+    {
+      "code": "EEE F477",
+      "name": "Modelling of Field -Effect NanoDevices",
+      "credits": 3
+    },
+    {
+      "code": "EEE F478",
+      "name": "Power Systems Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "ECE F211",
+      "name": "Electrical Machines",
+      "credits": 3
+    },
+    {
+      "code": "ECE F212",
+      "name": "Electromagnetic Theory",
+      "credits": 3
+    },
+    {
+      "code": "ECE F214",
+      "name": "Electronic Devices",
+      "credits": 3
+    },
+    {
+      "code": "ECE F215",
+      "name": "Digital Design",
+      "credits": 3
+    },
+    {
+      "code": "ECE F241",
+      "name": "Microprocessors and interfacing",
+      "credits": 4
+    },
+    {
+      "code": "ECE F242",
+      "name": "Control Systems",
+      "credits": 3
+    },
+    {
+      "code": "ECE F243",
+      "name": "Signals & Systems",
+      "credits": 3
+    },
+    {
+      "code": "ECE F244",
+      "name": "Microelectronic Circuits",
+      "credits": 3
+    },
+    {
+      "code": "ECE F311",
+      "name": "Communication Systems",
+      "credits": 3
+    },
+    {
+      "code": "ECE F314",
+      "name": "Electromagnetic Fields & Microwave Engineering",
+      "credits": 3
+    },
+    {
+      "code": "ECE F341",
+      "name": "Analog Electronics",
+      "credits": 3
+    },
+    {
+      "code": "ECE F344",
+      "name": "Information Theory &",
+      "credits": 3
+    },
+    {
+      "code": "ECE F434",
+      "name": "Digital Signal Processing",
+      "credits": 3
+    },
+    {
+      "code": "ECE F216",
+      "name": "Electronic Devices Simulation Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "ECE F414",
+      "name": "Telecommunication Switching Systems & Networks",
+      "credits": 3
+    },
+    {
+      "code": "ECE F416",
+      "name": "Digital Communication",
+      "credits": 3
+    },
+    {
+      "code": "ECE F418",
+      "name": "Modern Communication Technologies",
+      "credits": 3
+    },
+    {
+      "code": "ECE F424",
+      "name": "Smart Grcode for Sustainable Energy",
+      "credits": 3
+    },
+    {
+      "code": "ECE F428",
+      "name": "Energy Storage Systems",
+      "credits": 3
+    },
+    {
+      "code": "ECE F429",
+      "name": "Smart Materials and Applications",
+      "credits": 3
+    },
+    {
+      "code": "ECE F430",
+      "name": "Green Communications and Networks",
+      "credits": 3
+    },
+    {
+      "code": "ECE F431",
+      "name": "Mobile Telecommunication Networks",
+      "credits": 3
+    },
+    {
+      "code": "ECE F472",
+      "name": "Satellite Communication",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F412",
+      "name": "Analysis Instrumentation",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F211",
+      "name": "Electrical Machines",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F212",
+      "name": "Electromagnetic Theory",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F214",
+      "name": "Electronic Devices",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F215",
+      "name": "Digital Design",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F241",
+      "name": "Microprocessors and interfacing",
+      "credits": 4
+    },
+    {
+      "code": "BITS F232",
+      "name": "Foundations of Data Structures and Algorithms",
+      "credits": 4
+    },
+    {
+      "code": "INSTR F242",
+      "name": "Control Systems",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F243",
+      "name": "Signals & Systems",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F244",
+      "name": "Microelectronic Circuits",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F311",
+      "name": "Electronic Instrumentation & Instrumentation Technology",
+      "credits": 4
+    },
+    {
+      "code": "INSTR F312",
+      "name": "Transducers and Measurement Systems",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F313",
+      "name": "Analog & Digital VLSI Design",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F341",
+      "name": "Analog Electronics",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F342",
+      "name": "Power Electronics",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F343",
+      "name": "Industrial Instrumentation & Control",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F216",
+      "name": "Electronic Devices Simulation Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "INSTR F413",
+      "name": "Advanced Process Control",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F414",
+      "name": "Telecommunication Switching Systems & Networks",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F415",
+      "name": "Digital Control",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F419",
+      "name": "Virtual Instrumentation",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F420",
+      "name": "Design of Instrumentation Systems",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F422",
+      "name": "Instrumentation for Petrochemical Industry",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F424",
+      "name": "Smart Grcode for Sustainable Energy",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F428",
+      "name": "Energy Storage Systems",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F429",
+      "name": "Smart Materials and Applications",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F430",
+      "name": "Green Communications and Networks",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F432",
+      "name": "Medical Instrumentation",
+      "credits": 3
+    },
+    {
+      "code": "INSTR F473",
+      "name": "Wind Electrical Systems",
+      "credits": 3
+    },
+    {
+      "code": "MF F211",
+      "name": "Mechanics of Solcodes",
+      "credits": 3
+    },
+    {
+      "code": "MF F216",
+      "name": "Materials Science and Engineering",
+      "credits": 2
+    },
+    {
+      "code": "MF F217",
+      "name": "Machine Drawing",
+      "credits": 0
+    },
+    {
+      "code": "MF F218",
+      "name": "Transport Phenomena in Manufacturing",
+      "credits": 3
+    },
+    {
+      "code": "MF F219",
+      "name": "Operations Management",
+      "credits": 3
+    },
+    {
+      "code": "MF F220",
+      "name": "Metrology and Quality Assurance",
+      "credits": 2
+    },
+    {
+      "code": "MF F221",
+      "name": "Mechanisms and Machines",
+      "credits": 3
+    },
+    {
+      "code": "MF F222",
+      "name": "Casting, Forming and Welding",
+      "credits": 3
+    },
+    {
+      "code": "MF F314",
+      "name": "Design of Machine Elements",
+      "credits": 3
+    },
+    {
+      "code": "MF F315",
+      "name": "Automation and Control",
+      "credits": 3
+    },
+    {
+      "code": "MF F316",
+      "name": "Machining and Machine Tools",
+      "credits": 3
+    },
+    {
+      "code": "MF F317",
+      "name": "Computer Acodeed Design and Manufacturing",
+      "credits": 2
+    },
+    {
+      "code": "MF F318",
+      "name": "Non Traditional Manufacturing Processes",
+      "credits": 3
+    },
+    {
+      "code": "MF F319",
+      "name": "Supply Chain Management",
+      "credits": 3
+    },
+    {
+      "code": "MF F320",
+      "name": "Engineering Optimization",
+      "credits": 3
+    },
+    {
+      "code": "ECON F411",
+      "name": "Project Appraisal",
+      "credits": 3
+    },
+    {
+      "code": "ME F321",
+      "name": "Data Mining in Mechanical Sciences",
+      "credits": 2
+    },
+    {
+      "code": "ME F416",
+      "name": "Reverse Engineering and Rapcode Prototyping",
+      "credits": 3
+    },
+    {
+      "code": "ME F417",
+      "name": "Advanced Metal Forming",
+      "credits": 3
+    },
+    {
+      "code": "ME F419",
+      "name": "Total Product Integration Engineering",
+      "credits": 3
+    },
+    {
+      "code": "ME F424",
+      "name": "Energy Management",
+      "credits": 3
+    },
+    {
+      "code": "ME F425",
+      "name": "Additive Manufacturing",
+      "credits": 3
+    },
+    {
+      "code": "ME F426",
+      "name": "Industry",
+      "credits": 4
+    },
+    {
+      "code": "ME F428",
+      "name": "Smart Materials",
+      "credits": 3
+    },
+    {
+      "code": "ME F432",
+      "name": "Computer Acodeed Manufacturing",
+      "credits": 2
+    },
+    {
+      "code": "ME F443",
+      "name": "Quality Control Assurance and Reliability",
+      "credits": 3
+    },
+    {
+      "code": "ME F484",
+      "name": "Automotive Technology",
+      "credits": 3
+    },
+    {
+      "code": "MF F321",
+      "name": "Procurement Management",
+      "credits": 3
+    },
+    {
+      "code": "MF F411",
+      "name": "Flucode Power Systems",
+      "credits": 3
+    },
+    {
+      "code": "MF F412",
+      "name": "Automotive Systems",
+      "credits": 3
+    },
+    {
+      "code": "MF F413",
+      "name": "Mechanical Vibrations and Acoustics",
+      "credits": 3
+    },
+    {
+      "code": "MF F414",
+      "name": "Manufacturing Excellence",
+      "credits": 3
+    },
+    {
+      "code": "MF F418",
+      "name": "Lean Manufacturing",
+      "credits": 3
+    },
+    {
+      "code": "MF F422",
+      "name": "Supply Chain Modelling and Empirical Analysis",
+      "credits": 3
+    },
+    {
+      "code": "MF F442",
+      "name": "Advances in Materials Science",
+      "credits": 3
+    },
+    {
+      "code": "MF F453",
+      "name": "Industrial Relations",
+      "credits": 3
+    },
+    {
+      "code": "MF F463",
+      "name": "Maintenance and Safety",
+      "credits": 3
+    },
+    {
+      "code": "MF F471",
+      "name": "Instrumentation and Control",
+      "credits": 3
+    },
+    {
+      "code": "MF F472",
+      "name": "Precision Engineering",
+      "credits": 3
+    },
+    {
+      "code": "MF F473",
+      "name": "Product Design and Development",
+      "credits": 3
+    },
+    {
+      "code": "MF F474",
+      "name": "Product Design and Development Projects",
+      "credits": 0
+    },
+    {
+      "code": "MF F485",
+      "name": "Sustainable Manufacturing",
+      "credits": 3
+    },
+    {
+      "code": "ME F211",
+      "name": "Mechanics of Solcodes",
+      "credits": 3
+    },
+    {
+      "code": "ME F212",
+      "name": "Flucode Mechanics",
+      "credits": 3
+    },
+    {
+      "code": "ME F216",
+      "name": "Materials Science and Engineering",
+      "credits": 2
+    },
+    {
+      "code": "ME F217",
+      "name": "Applied Thermodynamics",
+      "credits": 3
+    },
+    {
+      "code": "ME F218",
+      "name": "Advanced Mechanics of Solcodes",
+      "credits": 2
+    },
+    {
+      "code": "ME F219",
+      "name": "Manufacturing Processes",
+      "credits": 3
+    },
+    {
+      "code": "ME F220",
+      "name": "Heat Transfer",
+      "credits": 3
+    },
+    {
+      "code": "ME F221",
+      "name": "Mechanisms and Machines",
+      "credits": 3
+    },
+    {
+      "code": "ME F314",
+      "name": "Design of Machine Elements",
+      "credits": 3
+    },
+    {
+      "code": "ME F315",
+      "name": "Advanced Manufacturing Processes",
+      "credits": 2
+    },
+    {
+      "code": "ME F316",
+      "name": "Manufacturing Management",
+      "credits": 2
+    },
+    {
+      "code": "ME F317",
+      "name": "Engines, Motors, and Mobility",
+      "credits": 2
+    },
+    {
+      "code": "ME F318",
+      "name": "Computer -Acodeed Design",
+      "credits": 1
+    },
+    {
+      "code": "ME F319",
+      "name": "Vibrations and Control",
+      "credits": 3
+    },
+    {
+      "code": "ME F320",
+      "name": "Engineering Optimization",
+      "credits": 3
+    },
+    {
+      "code": "ME F341",
+      "name": "Prime Movers & Flucode Machines",
+      "credits": 2
+    },
+    {
+      "code": "AN F311",
+      "name": "Principles of Aerodynamics",
+      "credits": 3
+    },
+    {
+      "code": "AN F312",
+      "name": "Aircraft Propulsion",
+      "credits": 3
+    },
+    {
+      "code": "AN F313",
+      "name": "Flight Mechanics and Controls",
+      "credits": 3
+    },
+    {
+      "code": "AN F314",
+      "name": "Introduction to Flight",
+      "credits": 3
+    },
+    {
+      "code": "AN F315",
+      "name": "Aircraft Structures",
+      "credits": 3
+    },
+    {
+      "code": "BITS F327",
+      "name": "Artificial Intelligence for Robotics",
+      "credits": 2
+    },
+    {
+      "code": "MATH F313",
+      "name": "Numerical Analysis",
+      "credits": 3
+    },
+    {
+      "code": "ME F340",
+      "name": "Introduction to Sports Engineering",
+      "credits": 3
+    },
+    {
+      "code": "ME F411",
+      "name": "Flucode Power Systems",
+      "credits": 3
+    },
+    {
+      "code": "ME F413",
+      "name": "Nonlinear Vibrations",
+      "credits": 3
+    },
+    {
+      "code": "ME F414",
+      "name": "Fuel Cell Science and Technology",
+      "credits": 3
+    },
+    {
+      "code": "ME F415",
+      "name": "Gas Dynamics",
+      "credits": 3
+    },
+    {
+      "code": "ME F418",
+      "name": "Rocket and Spacecraft Propulsion",
+      "credits": 3
+    },
+    {
+      "code": "ME F420",
+      "name": "Power Plant Engineering",
+      "credits": 3
+    },
+    {
+      "code": "ME F423",
+      "name": "Microflucodeics and Applications",
+      "credits": 4
+    },
+    {
+      "code": "ME F427",
+      "name": "Continuum Mechanics",
+      "credits": 3
+    },
+    {
+      "code": "ME F429",
+      "name": "Micro -Nanoscale Heat Transport",
+      "credits": 3
+    },
+    {
+      "code": "ME F433",
+      "name": "Solar Thermal Process Engineering",
+      "credits": 3
+    },
+    {
+      "code": "ME F441",
+      "name": "Automotive Vehicles",
+      "credits": 3
+    },
+    {
+      "code": "ME F451",
+      "name": "Mechanical Equipment Design",
+      "credits": 3
+    },
+    {
+      "code": "ME F452",
+      "name": "Composite Materials & Design",
+      "credits": 3
+    },
+    {
+      "code": "ME F461",
+      "name": "Refrigeration and Air conditioning",
+      "credits": 3
+    },
+    {
+      "code": "ME F472",
+      "name": "Precision Engineering",
+      "credits": 3
+    },
+    {
+      "code": "ME F482",
+      "name": "Combustion",
+      "credits": 3
+    },
+    {
+      "code": "ME F483",
+      "name": "Wind Energy",
+      "credits": 3
+    },
+    {
+      "code": "ME F485",
+      "name": "Numerical Techniques for Flucode Flow and Heat Transfer",
+      "credits": 3
+    },
+    {
+      "code": "MF F311",
+      "name": "Mechatronics and Automation",
+      "credits": 2
+    },
+    {
+      "code": "MF F421",
+      "name": "Supply chain management",
+      "credits": 4
+    },
+    {
+      "code": "BITS F219",
+      "name": "Process Engineering",
+      "credits": 2
+    },
+    {
+      "code": "PHA F211",
+      "name": "Pharmaceutical Analysis",
+      "credits": 2
+    },
+    {
+      "code": "PHA F214",
+      "name": "Anatomy, Physiology & Hygiene",
+      "credits": 2
+    },
+    {
+      "code": "PHA F216",
+      "name": "Pharmaceutical Formulations I",
+      "credits": 2
+    },
+    {
+      "code": "PHA F217",
+      "name": "Pharmaceutical Microbiology",
+      "credits": 2
+    },
+    {
+      "code": "PHA F241",
+      "name": "Pharmaceutical Chemistry",
+      "credits": 2
+    },
+    {
+      "code": "PHA F242",
+      "name": "Biological Chemistry",
+      "credits": 2
+    },
+    {
+      "code": "PHA F243",
+      "name": "Industrial Pharmacy",
+      "credits": 2
+    },
+    {
+      "code": "PHA F244",
+      "name": "Physical Pharmacy",
+      "credits": 2
+    },
+    {
+      "code": "PHA F311",
+      "name": "Pharmacology I",
+      "credits": 2
+    },
+    {
+      "code": "PHA F312",
+      "name": "Medicinal Chemistry I",
+      "credits": 2
+    },
+    {
+      "code": "PHA F313",
+      "name": "Instrumental Methods of Analysis",
+      "credits": 2
+    },
+    {
+      "code": "PHA F315",
+      "name": "Pharmaceutical Formulations II",
+      "credits": 2
+    },
+    {
+      "code": "PHA F341",
+      "name": "Pharmacology II",
+      "credits": 2
+    },
+    {
+      "code": "PHA F342",
+      "name": "Medicinal Chemistry II",
+      "credits": 2
+    },
+    {
+      "code": "PHA F343",
+      "name": "Forensic Pharmacy",
+      "credits": 2
+    },
+    {
+      "code": "PHA F344",
+      "name": "Natural Drugs",
+      "credits": 2
+    },
+    {
+      "code": "PHA F316",
+      "name": "Pharmaceutical Regulatory Science",
+      "credits": 3
+    },
+    {
+      "code": "PHA F317",
+      "name": "Safety Pharmacology and Toxicology",
+      "credits": 3
+    },
+    {
+      "code": "PHA F413",
+      "name": "Pharmaceutical Management and Quality",
+      "credits": 3
+    },
+    {
+      "code": "PHA F414",
+      "name": "Biopharmaceutics",
+      "credits": 3
+    },
+    {
+      "code": "PHA F415",
+      "name": "Pathophysiology",
+      "credits": 3
+    },
+    {
+      "code": "PHA F416",
+      "name": "Chemistry of Synthetic Drugs",
+      "credits": 3
+    },
+    {
+      "code": "PHA F417",
+      "name": "Pharmacoeconomics",
+      "credits": 3
+    },
+    {
+      "code": "PHA F418",
+      "name": "Biopharmaceutics and Pharmacokinetics",
+      "credits": 3
+    },
+    {
+      "code": "PHA F419",
+      "name": "Herbal Drug Technology",
+      "credits": 3
+    },
+    {
+      "code": "PHA F422",
+      "name": "Cosmetic Science",
+      "credits": 2
+    },
+    {
+      "code": "PHA F432",
+      "name": "Hospital Pharmacy",
+      "credits": 3
+    },
+    {
+      "code": "PHA F441",
+      "name": "Biochemical Engineering",
+      "credits": 3
+    },
+    {
+      "code": "PHA F442",
+      "name": "Applied Pharmaceutical Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "PHA F461",
+      "name": "Phytochemistry",
+      "credits": 2
+    },
+    {
+      "code": "BIO F211",
+      "name": "Biological Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "BIO F212",
+      "name": "Microbiology",
+      "credits": 3
+    },
+    {
+      "code": "BIO F213",
+      "name": "Cell Biology",
+      "credits": 3
+    },
+    {
+      "code": "BIO F214",
+      "name": "Integrated Biology",
+      "credits": 3
+    },
+    {
+      "code": "BIO F215",
+      "name": "Biophysics",
+      "credits": 3
+    },
+    {
+      "code": "BIO F241",
+      "name": "Ecology & Environmental Science",
+      "credits": 3
+    },
+    {
+      "code": "BIO F242",
+      "name": "Introduction to Bioinformatics",
+      "credits": 3
+    },
+    {
+      "code": "BIO F243",
+      "name": "Genetics",
+      "credits": 3
+    },
+    {
+      "code": "BIO F244",
+      "name": "Instrumental Methods of Analysis",
+      "credits": 1
+    },
+    {
+      "code": "BIO F311",
+      "name": "Recombinant  DNA Technology",
+      "credits": 3
+    },
+    {
+      "code": "BIO F312",
+      "name": "Plant Physiology",
+      "credits": 3
+    },
+    {
+      "code": "BIO F313",
+      "name": "Animal Physiology",
+      "credits": 3
+    },
+    {
+      "code": "BIO F341",
+      "name": "Developmental Biology",
+      "credits": 3
+    },
+    {
+      "code": "BIO F342",
+      "name": "Immunology",
+      "credits": 3
+    },
+    {
+      "code": "BIO F216",
+      "name": "Water, Sanitation and Solcode Waste Management",
+      "credits": 3
+    },
+    {
+      "code": "BIO F217",
+      "name": "Laboratory for Water, Sanitation and Solcode waste Management",
+      "credits": 1
+    },
+    {
+      "code": "BIO F231",
+      "name": "Biology Project Laboratory",
+      "credits": 3
+    },
+    {
+      "code": "BIO F314",
+      "name": "Conservation Biology",
+      "credits": 2
+    },
+    {
+      "code": "BIO F315",
+      "name": "Applied Nutrition and Nutraceuticals",
+      "credits": 2
+    },
+    {
+      "code": "BIO F441",
+      "name": "Biochemical Engineering",
+      "credits": 3
+    },
+    {
+      "code": "U F212",
+      "name": "CHEM F213  Physical Chemistry  II",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F211",
+      "name": "Physical Chemistry I",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F212",
+      "name": "Organic Chemistry I",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F213",
+      "name": "Physical Chemistry II",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F214",
+      "name": "Inorganic Chemistry I",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F241",
+      "name": "Inorganic Chemistry II",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F242",
+      "name": "Chemical Experimentation I",
+      "credits": 0
+    },
+    {
+      "code": "CHEM F243",
+      "name": "Organic Chemistry II",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F244",
+      "name": "Physical Chemistry III",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F311",
+      "name": "Organic Chemistry III",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F312",
+      "name": "Physical Chemistry IV",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F313",
+      "name": "Instrumental Methods of Analysis",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F341",
+      "name": "Chemical Experimentation II",
+      "credits": 0
+    },
+    {
+      "code": "CHEM F342",
+      "name": "Organic Chemistry IV",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F343",
+      "name": "Inorganic Chemistry III",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F223",
+      "name": "Collocode and Surface Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F320",
+      "name": "Introductory Computational Chemistry Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "CHEM F323",
+      "name": "Biophysical Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F324",
+      "name": "Numerical Methods in Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F326",
+      "name": "Solcode State Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "U F328",
+      "name": "CHEM F329  Analytical Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F330",
+      "name": "Photophysical Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F333",
+      "name": "Chemistry of Materials",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F334",
+      "name": "Magnetic Resonance",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F335",
+      "name": "Organic Chemistry and Drug Design",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F336",
+      "name": "Nanochemistry",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F337",
+      "name": "Green Chemistry and Catalysis",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F412",
+      "name": "Photochemistry and Laser Spectroscopy",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F413",
+      "name": "Electron Correlation In Atoms And Molecules",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F414",
+      "name": "Bio and Chemical Sensors",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F415",
+      "name": "Frontiers in Organic Synthesis",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F422",
+      "name": "Statistical Thermodynamics",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F423",
+      "name": "Astrochemistry",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F430",
+      "name": "Atmospheric Chemistry",
+      "credits": 3
+    },
+    {
+      "code": "CHEM F431",
+      "name": "Sustainable Chemistry using Renewables",
+      "credits": 3
+    },
+    {
+      "code": "ECON F211",
+      "name": "Principles of Economics",
+      "credits": 3
+    },
+    {
+      "code": "ECON F212",
+      "name": "Fundamentals of Finance and Accounts",
+      "credits": 3
+    },
+    {
+      "code": "ECON F213",
+      "name": "Mathematical and Statistical Methods",
+      "credits": 3
+    },
+    {
+      "code": "ECON F214",
+      "name": "Economic Environment of Business",
+      "credits": 3
+    },
+    {
+      "code": "ECON F241",
+      "name": "Econometric Methods",
+      "credits": 3
+    },
+    {
+      "code": "ECON F242",
+      "name": "Microeconomics",
+      "credits": 3
+    },
+    {
+      "code": "ECON F243",
+      "name": "Macroeconomics",
+      "credits": 3
+    },
+    {
+      "code": "ECON F244",
+      "name": "Economics of Growth and Development",
+      "credits": 3
+    },
+    {
+      "code": "ECON F311",
+      "name": "International Economics",
+      "credits": 3
+    },
+    {
+      "code": "ECON F312",
+      "name": "Money, Banking and Financial Markets",
+      "credits": 3
+    },
+    {
+      "code": "ECON F313",
+      "name": "Issues in Economic Development",
+      "credits": 3
+    },
+    {
+      "code": "ECON F341",
+      "name": "Public Finance Theory and Policy",
+      "credits": 3
+    },
+    {
+      "code": "ECON F342",
+      "name": "Applied Econometrics",
+      "credits": 3
+    },
+    {
+      "code": "ECON F343",
+      "name": "Economic Analysis of Public Policy",
+      "credits": 3
+    },
+    {
+      "code": "ECON F215",
+      "name": "Computational Methods for Economics",
+      "credits": 3
+    },
+    {
+      "code": "ECON F315",
+      "name": "Financial Management",
+      "credits": 3
+    },
+    {
+      "code": "ECON F314",
+      "name": "Industrial Economics",
+      "credits": 3
+    },
+    {
+      "code": "ECON F345",
+      "name": "Behavioral Economics",
+      "credits": 3
+    },
+    {
+      "code": "ECON F351",
+      "name": "Indian Economic Development",
+      "credits": 3
+    },
+    {
+      "code": "ECON F352",
+      "name": "Management of Banks and Financial Institutions",
+      "credits": 3
+    },
+    {
+      "code": "ECON F353",
+      "name": "Energy Economics and Policy",
+      "credits": 3
+    },
+    {
+      "code": "ECON F354",
+      "name": "Derivatives and Risk Management",
+      "credits": 3
+    },
+    {
+      "code": "ECON F355",
+      "name": "Business Analysis and Valuation",
+      "credits": 3
+    },
+    {
+      "code": "ECON F356",
+      "name": "Strategic Financial Management",
+      "credits": 3
+    },
+    {
+      "code": "ECON F357",
+      "name": "Management Control System",
+      "credits": 3
+    },
+    {
+      "code": "ECON F412",
+      "name": "Security Analysis and Portfolio Management",
+      "credits": 3
+    },
+    {
+      "code": "ECON F413",
+      "name": "Financial Engineering",
+      "credits": 3
+    },
+    {
+      "code": "ECON F414",
+      "name": "Creating and Leading Entrepreneurial Organizations",
+      "credits": 3
+    },
+    {
+      "code": "ECON F415",
+      "name": "New Venture Creation",
+      "credits": 3
+    },
+    {
+      "code": "ECON F417",
+      "name": "Risk Management and Insurance",
+      "credits": 3
+    },
+    {
+      "code": "ECON F418",
+      "name": "Quantitative Analysis of International Trade",
+      "credits": 3
+    },
+    {
+      "code": "ECON F419",
+      "name": "Advanced Microeconomics",
+      "credits": 3
+    },
+    {
+      "code": "U F420",
+      "name": "ECON F422  Functions and Working of Stock Exchanges",
+      "credits": 3
+    },
+    {
+      "code": "ECON F434",
+      "name": "International Business",
+      "credits": 3
+    },
+    {
+      "code": "ECON F435",
+      "name": "Marketing Research",
+      "credits": 3
+    },
+    {
+      "code": "ECON F471",
+      "name": "Resources and Environmental Economics",
+      "credits": 3
+    },
+    {
+      "code": "FIN F314",
+      "name": "Investment Banking and Financial Services",
+      "credits": 3
+    },
+    {
+      "code": "FIN F414",
+      "name": "Financial Risk Analytics and Management",
+      "credits": 3
+    },
+    {
+      "code": "MATH F242",
+      "name": "Operations Research",
+      "credits": 3
+    },
+    {
+      "code": "MATH F424",
+      "name": "Applied Stochastic Process",
+      "credits": 3
+    },
+    {
+      "code": "MATH F213",
+      "name": "Discrete Mathematics",
+      "credits": 3
+    },
+    {
+      "code": "MATH F214",
+      "name": "Elementary Real Analysis",
+      "credits": 3
+    },
+    {
+      "code": "MATH F215",
+      "name": "Algebra I",
+      "credits": 3
+    },
+    {
+      "code": "MATH F241",
+      "name": "Mathematical Methods",
+      "credits": 3
+    },
+    {
+      "code": "MATH F243",
+      "name": "Graphs and Networks",
+      "credits": 3
+    },
+    {
+      "code": "MATH F244",
+      "name": "Measure & Integration",
+      "credits": 3
+    },
+    {
+      "code": "MATH F311",
+      "name": "Introduction to Topology",
+      "credits": 3
+    },
+    {
+      "code": "MATH F312",
+      "name": "Ordinary Differential Equations",
+      "credits": 3
+    },
+    {
+      "code": "MATH F341",
+      "name": "Introduction to Functional Analysis",
+      "credits": 3
+    },
+    {
+      "code": "MATH F342",
+      "name": "Differential Geometry",
+      "credits": 3
+    },
+    {
+      "code": "MATH F343",
+      "name": "Partial Differential Equations",
+      "credits": 3
+    },
+    {
+      "code": "BITS F314",
+      "name": "Game Theory and Its Applications",
+      "credits": 3
+    },
+    {
+      "code": "MATH F314",
+      "name": "Algebra  II",
+      "credits": 3
+    },
+    {
+      "code": "MATH F353",
+      "name": "Statistical Inference and Applications",
+      "credits": 3
+    },
+    {
+      "code": "MATH F354",
+      "name": "Complex Analysis",
+      "credits": 3
+    },
+    {
+      "code": "MATH F378",
+      "name": "Advanced Probability Theory",
+      "credits": 3
+    },
+    {
+      "code": "MATH F420",
+      "name": "Mathematical Modeling",
+      "credits": 3
+    },
+    {
+      "code": "MATH F422",
+      "name": "Numerical Methodology for Partial Differential Equations",
+      "credits": 3
+    },
+    {
+      "code": "MATH F423",
+      "name": "Introduction to Algebraic Topology",
+      "credits": 3
+    },
+    {
+      "code": "MATH F425",
+      "name": "Numerical Linear Algebra",
+      "credits": 3
+    },
+    {
+      "code": "MATH F426",
+      "name": "Mathematical Theory of Finite Element Methods",
+      "credits": 3
+    },
+    {
+      "code": "MATH F431",
+      "name": "Distribution Theory",
+      "credits": 3
+    },
+    {
+      "code": "MATH F432",
+      "name": "Applied Statistical Methods",
+      "credits": 3
+    },
+    {
+      "code": "MATH F444",
+      "name": "Numerical Solutions of Ordinary Differential Equations",
+      "credits": 3
+    },
+    {
+      "code": "MATH F445",
+      "name": "Mathematical Flucode Dynamics",
+      "credits": 3
+    },
+    {
+      "code": "MATH F456",
+      "name": "Cosmology",
+      "credits": 3
+    },
+    {
+      "code": "MATH F471",
+      "name": "Nonlinear Optimization",
+      "credits": 3
+    },
+    {
+      "code": "MATH F481",
+      "name": "Commutative Algebra",
+      "credits": 3
+    },
+    {
+      "code": "MATH F492",
+      "name": "Wavelet analysis and applications",
+      "credits": 3
+    },
+    {
+      "code": "PHY F211",
+      "name": "Classical Mechanics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F212",
+      "name": "Electromagnetic Theory I",
+      "credits": 3
+    },
+    {
+      "code": "PHY F213",
+      "name": "Optics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F214",
+      "name": "Electricity, Magnetism & Optics  Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "PHY F241",
+      "name": "Electromagnetic Theory II",
+      "credits": 3
+    },
+    {
+      "code": "PHY F242",
+      "name": "Quantum Mechanics I",
+      "credits": 3
+    },
+    {
+      "code": "PHY F243",
+      "name": "Mathematical Methods of Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F244",
+      "name": "Modern Physics Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "PHY F311",
+      "name": "Quantum Mechanics II",
+      "credits": 3
+    },
+    {
+      "code": "PHY F312",
+      "name": "Statistical Mechanics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F313",
+      "name": "Computational Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F341",
+      "name": "Solcode State Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F342",
+      "name": "Atomic & Molecular Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F343",
+      "name": "Nuclear & Particle Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F344",
+      "name": "Advanced Physics Laboratory",
+      "credits": 0
+    },
+    {
+      "code": "BITS F316",
+      "name": "Nonlinear Dynamics and Chaos",
+      "credits": 3
+    },
+    {
+      "code": "BITS F317",
+      "name": "Theoretical Neuroscience",
+      "credits": 3
+    },
+    {
+      "code": "PHY F346",
+      "name": "Laser Science and Technology",
+      "credits": 3
+    },
+    {
+      "code": "BITS F446",
+      "name": "Pattern Recognition",
+      "credits": 3
+    },
+    {
+      "code": "PHY F215",
+      "name": "Introduction to Astronomy & Astrophysics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F315",
+      "name": "Theory of Relativity",
+      "credits": 3
+    },
+    {
+      "code": "PHY F316",
+      "name": "Musical Acoustics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F317",
+      "name": "Introduction to Radio Astronomy",
+      "credits": 3
+    },
+    {
+      "code": "PHY F378",
+      "name": "Plasma Physics and its Applications",
+      "credits": 3
+    },
+    {
+      "code": "PHY F379",
+      "name": "Thin Film Technology",
+      "credits": 3
+    },
+    {
+      "code": "PHY F412",
+      "name": "Introduction To Quantum Field Theory",
+      "credits": 3
+    },
+    {
+      "code": "PHY F413",
+      "name": "Particle Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F414",
+      "name": "Physics of Advanced Materials",
+      "credits": 3
+    },
+    {
+      "code": "PHY F415",
+      "name": "General Theory of Relativity and Cosmology",
+      "credits": 3
+    },
+    {
+      "code": "PHY F416",
+      "name": "Soft Condensed Matter Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F417",
+      "name": "Experimental Methods of Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F418",
+      "name": "Lasers and Applications",
+      "credits": 3
+    },
+    {
+      "code": "PHY F419",
+      "name": "Advanced Solcode State Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F420",
+      "name": "Quantum Optics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F421",
+      "name": "Advanced Quantum Mechanics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F422",
+      "name": "Group Theory and Applications",
+      "credits": 3
+    },
+    {
+      "code": "PHY F423",
+      "name": "Special Topics in Statistical Mechanics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F424",
+      "name": "Advanced Electrodynamics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F425",
+      "name": "Advanced Mathematical Methods of Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F426",
+      "name": "Physics of Semiconductor Devices",
+      "credits": 3
+    },
+    {
+      "code": "PHY F427",
+      "name": "Atmospheric Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F428",
+      "name": "Quantum Information Theory",
+      "credits": 3
+    },
+    {
+      "code": "PHY F431",
+      "name": "Geometrical Methods in Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F433",
+      "name": "Topics in Nonlinear Optics",
+      "credits": 3
+    },
+    {
+      "code": "GS F221",
+      "name": "Business Communication",
+      "credits": 3
+    },
+    {
+      "code": "GS F222",
+      "name": "Language Lab Practice",
+      "credits": 0
+    },
+    {
+      "code": "GS F223",
+      "name": "Introduction to Mass Communication",
+      "credits": 3
+    },
+    {
+      "code": "GS F224",
+      "name": "Print and Audio Visual Advertising",
+      "credits": 2
+    },
+    {
+      "code": "GS F241",
+      "name": "Creative Writing",
+      "credits": 2
+    },
+    {
+      "code": "GS F243",
+      "name": "Current Affairs",
+      "credits": 3
+    },
+    {
+      "code": "GS F244",
+      "name": "Reporting and Writing for Media",
+      "credits": 3
+    },
+    {
+      "code": "GS F245",
+      "name": "Effective Public Speaking",
+      "credits": 2
+    },
+    {
+      "code": "GS F321",
+      "name": "Mass Media Content and Design",
+      "credits": 2
+    },
+    {
+      "code": "GS F322",
+      "name": "Critical Analysis of Literature and Cinema",
+      "credits": 3
+    },
+    {
+      "code": "GS F342",
+      "name": "Computer Mediated Communication",
+      "credits": 3
+    },
+    {
+      "code": "GS F343",
+      "name": "Short Film and Vcodeeo",
+      "credits": 2
+    },
+    {
+      "code": "BITS F385",
+      "name": "Introduction to Gender Studies",
+      "credits": 3
+    },
+    {
+      "code": "GS F211",
+      "name": "Modern Political Concepts",
+      "credits": 3
+    },
+    {
+      "code": "GS F212",
+      "name": "Environment, Development & Climate Change",
+      "credits": 3
+    },
+    {
+      "code": "GS F231",
+      "name": "Dynamics of Social Change",
+      "credits": 3
+    },
+    {
+      "code": "GS F232",
+      "name": "Introductory Psychology",
+      "credits": 3
+    },
+    {
+      "code": "GS F242",
+      "name": "Cultural Studies",
+      "credits": 3
+    },
+    {
+      "code": "GS F311",
+      "name": "Introduction to Conflict Management",
+      "credits": 3
+    },
+    {
+      "code": "GS F325",
+      "name": "Journalism",
+      "credits": 3
+    },
+    {
+      "code": "GS F326",
+      "name": "Creative Thinking",
+      "credits": 2
+    },
+    {
+      "code": "GS F327",
+      "name": "Selected Reading",
+      "credits": 3
+    },
+    {
+      "code": "GS F333",
+      "name": "Public Administration",
+      "credits": 3
+    },
+    {
+      "code": "GS F334",
+      "name": "Global Business Technology & Knowledge Sharing",
+      "credits": 3
+    },
+    {
+      "code": "GS F344",
+      "name": "Copywriting",
+      "credits": 2
+    },
+    {
+      "code": "HSS F227",
+      "name": "Cross Cultural Skills",
+      "credits": 3
+    },
+    {
+      "code": "HSS F232",
+      "name": "Introduction to Development Studies",
+      "credits": 3
+    },
+    {
+      "code": "HSS F315",
+      "name": "Society, Business, and Politics",
+      "credits": 3
+    },
+    {
+      "code": "HSS F317",
+      "name": "Introduction to Globalization",
+      "credits": 3
+    },
+    {
+      "code": "HSS F319",
+      "name": "Lighting for Theatre and Films",
+      "credits": 2
+    },
+    {
+      "code": "HSS F323",
+      "name": "Organizational Psychology",
+      "credits": 3
+    },
+    {
+      "code": "HSS F328",
+      "name": "Human Resource Development",
+      "credits": 3
+    },
+    {
+      "code": "HSS F341",
+      "name": "Performance Design",
+      "credits": 1
+    },
+    {
+      "code": "HSS F343",
+      "name": "Professional Ethics",
+      "credits": 3
+    },
+    {
+      "code": "HSS F346",
+      "name": "International Relations",
+      "credits": 3
+    },
+    {
+      "code": "GS F213",
+      "name": "Development Theories",
+      "credits": 3
+    },
+    {
+      "code": "GS F233",
+      "name": "Public Policy",
+      "credits": 3
+    },
+    {
+      "code": "GS F234",
+      "name": "Development Economics",
+      "credits": 3
+    },
+    {
+      "code": "GS F312",
+      "name": "Applied Philosophy",
+      "credits": 3
+    },
+    {
+      "code": "GS F331",
+      "name": "Techniques in Social",
+      "credits": 3
+    },
+    {
+      "code": "GS F332",
+      "name": "Contemporary India",
+      "credits": 3
+    },
+    {
+      "code": "BITS F214",
+      "name": "Science, Technology and Modernity",
+      "credits": 3
+    },
+    {
+      "code": "BITS F399",
+      "name": "Humanistic Theories of Science and Technology",
+      "credits": 3
+    },
+    {
+      "code": "HSS F233",
+      "name": "Main Trends in Indian History",
+      "credits": 3
+    },
+    {
+      "code": "HSS F234",
+      "name": "Main Currents of Modern History",
+      "credits": 3
+    },
+    {
+      "code": "HSS F235",
+      "name": "Introductory Philosophy",
+      "credits": 3
+    },
+    {
+      "code": "HSS F236",
+      "name": "Symbolic Logic",
+      "credits": 3
+    },
+    {
+      "code": "HSS F312",
+      "name": "Bureaucracy",
+      "credits": 3
+    },
+    {
+      "code": "HSS F344",
+      "name": "Heritage of India",
+      "credits": 3
+    },
+    {
+      "code": "HSS F345",
+      "name": "Gandhian Thoughts",
+      "credits": 3
+    },
+    {
+      "code": "XXX F266",
+      "name": "Study Project",
+      "credits": 3
+    },
+    {
+      "code": "XXX F366",
+      "name": "Laboratory Project",
+      "credits": 3
+    },
+    {
+      "code": "XXX F367",
+      "name": "Laboratory Project",
+      "credits": 3
+    },
+    {
+      "code": "XXX F376",
+      "name": "Design Project",
+      "credits": 3
+    },
+    {
+      "code": "XXX F377",
+      "name": "Design Project",
+      "credits": 3
+    },
+    {
+      "code": "XXX F491",
+      "name": "Special Project",
+      "credits": 3
+    },
+    {
+      "code": "BITS F226",
+      "name": "Soft Skills for Professionals",
+      "credits": 3
+    },
+    {
+      "code": "BITS F419",
+      "name": "Management of Cross Cultural Engineering Teams",
+      "credits": 3
+    },
+    {
+      "code": "GS F313",
+      "name": "Marxian Thoughts",
+      "credits": 3
+    },
+    {
+      "code": "HSS F211",
+      "name": "Introduction to Arabic",
+      "credits": 3
+    },
+    {
+      "code": "HSS F221",
+      "name": "Readings from Drama",
+      "credits": 3
+    },
+    {
+      "code": "HSS F222",
+      "name": "Linguistics",
+      "credits": 3
+    },
+    {
+      "code": "HSS F223",
+      "name": "Appreciation of Indian Music",
+      "credits": 3
+    },
+    {
+      "code": "HSS F224",
+      "name": "English Skills for Academic",
+      "credits": 3
+    },
+    {
+      "code": "HSS F226",
+      "name": "Postmodernism",
+      "credits": 3
+    },
+    {
+      "code": "HSS F228",
+      "name": "Phonetics & Spoken English",
+      "credits": 3
+    },
+    {
+      "code": "HSS F229",
+      "name": "Introduction to Western Music",
+      "credits": 3
+    },
+    {
+      "code": "HSS F237",
+      "name": "Contemporary Indian English Fiction",
+      "credits": 3
+    },
+    {
+      "code": "HSS F238",
+      "name": "Sports and Society",
+      "credits": 3
+    },
+    {
+      "code": "HSS F244",
+      "name": "Crime and New Media",
+      "credits": 3
+    },
+    {
+      "code": "HSS F245",
+      "name": "Gender, Science and Technology",
+      "credits": 3
+    },
+    {
+      "code": "HSS F247",
+      "name": "Social Informatics",
+      "credits": 3
+    },
+    {
+      "code": "HSS F248",
+      "name": "Introduction to Disability Studies",
+      "credits": 3
+    },
+    {
+      "code": "HSS F249",
+      "name": "Politics in India",
+      "credits": 3
+    },
+    {
+      "code": "HSS F250",
+      "name": "Comics and Visual Culture",
+      "credits": 3
+    },
+    {
+      "code": "HSS F251",
+      "name": "Introduction to Discourse and Conversational Analysis",
+      "credits": 2
+    },
+    {
+      "code": "HSS F252",
+      "name": "International Law",
+      "credits": 3
+    },
+    {
+      "code": "HSS F266",
+      "name": "Study Project",
+      "credits": 3
+    },
+    {
+      "code": "HSS F311",
+      "name": "Introduction to Vcodeeogame Studies",
+      "credits": 3
+    },
+    {
+      "code": "HSS F313",
+      "name": "Introduction to Contemporary Arts",
+      "credits": 3
+    },
+    {
+      "code": "HSS F316",
+      "name": "Popular Literature and Culture of South Asia",
+      "credits": 3
+    },
+    {
+      "code": "HSS F318",
+      "name": "Introduction to Anthropology",
+      "credits": 3
+    },
+    {
+      "code": "HSS F325",
+      "name": "Cinematic Adaptation",
+      "credits": 3
+    },
+    {
+      "code": "HSS F326",
+      "name": "Humanities and Design",
+      "credits": 2
+    },
+    {
+      "code": "HSS F327",
+      "name": "Contemporary Drama",
+      "credits": 3
+    },
+    {
+      "code": "HSS F330",
+      "name": "Appreciation of Art",
+      "credits": 3
+    },
+    {
+      "code": "HSS F332",
+      "name": "Cinematic Art",
+      "credits": 3
+    },
+    {
+      "code": "HSS F333",
+      "name": "Comparative Religion",
+      "credits": 3
+    },
+    {
+      "code": "HSS F334",
+      "name": "Srimad Bhagavad Gita",
+      "credits": 3
+    },
+    {
+      "code": "HSS F335",
+      "name": "Literary Criticism",
+      "credits": 3
+    },
+    {
+      "code": "HSS F336",
+      "name": "Modern Fiction",
+      "credits": 3
+    },
+    {
+      "code": "HSS F337",
+      "name": "English Literary Forms and Movements",
+      "credits": 3
+    },
+    {
+      "code": "HSS F338",
+      "name": "Comparative Indian Literature",
+      "credits": 3
+    },
+    {
+      "code": "HSS F339",
+      "name": "Theatre Art Acting and Production",
+      "credits": 3
+    },
+    {
+      "code": "HSS F340",
+      "name": "Post Colonial Literatures",
+      "credits": 3
+    },
+    {
+      "code": "HSS F342",
+      "name": "Advanced Communicative English",
+      "credits": 3
+    },
+    {
+      "code": "HSS F347",
+      "name": "Introduction to Carnatic Music",
+      "credits": 3
+    },
+    {
+      "code": "HSS F348",
+      "name": "Introduction to Hindustani Music",
+      "credits": 3
+    },
+    {
+      "code": "HSS F349",
+      "name": "Ecocriticism",
+      "credits": 3
+    },
+    {
+      "code": "HSS F351",
+      "name": "Social and Political Ecology",
+      "credits": 3
+    },
+    {
+      "code": "HSS F352",
+      "name": "Technology, Work and Society",
+      "credits": 3
+    },
+    {
+      "code": "HSS F353",
+      "name": "Philosophy of Aesthetics",
+      "credits": 3
+    },
+    {
+      "code": "HSS F354",
+      "name": "Introduction to Islamic Economy",
+      "credits": 3
+    },
+    {
+      "code": "HSS F355",
+      "name": "Dictatorship, Democracy & Development",
+      "credits": 3
+    },
+    {
+      "code": "HSS F356",
+      "name": "Social Movements and",
+      "credits": 3
+    },
+    {
+      "code": "HSS F364",
+      "name": "Political Economy of Gulf Cooperation Council States",
+      "credits": 3
+    },
+    {
+      "code": "HSS F365",
+      "name": "Science of Sustainable Happiness",
+      "credits": 3
+    },
+    {
+      "code": "HSS F368",
+      "name": "Asian Cinemas and Cultures",
+      "credits": 3
+    },
+    {
+      "code": "HSS F369",
+      "name": "Caste and Gender in India",
+      "credits": 3
+    },
+    {
+      "code": "HSS F371",
+      "name": "Cities -Life, Issues and Conflicts",
+      "credits": 3
+    },
+    {
+      "code": "HSS F372",
+      "name": "Introduction to  Social Psychology",
+      "credits": 3
+    },
+    {
+      "code": "HSS F373",
+      "name": "Shakespeare and Popular Culture",
+      "credits": 3
+    },
+    {
+      "code": "HSS F374",
+      "name": "Urban Modernity and the Renewal of Paris",
+      "credits": 3
+    },
+    {
+      "code": "HSS F399",
+      "name": "Introduction to American Literature",
+      "credits": 3
+    },
+    {
+      "code": "SANS F111",
+      "name": "Sanskrit",
+      "credits": 3
+    },
+    {
+      "code": "BITS F211",
+      "name": "Introduction to IPR",
+      "credits": 1
+    },
+    {
+      "code": "BITS F212",
+      "name": "Introduction to Human Rights",
+      "credits": 1
+    },
+    {
+      "code": "BITS F213",
+      "name": "Introduction to Environmental studies",
+      "credits": 1
+    },
+    {
+      "code": "BITS F215",
+      "name": "Applications of Bio -Medical Instrumentation Techniques in Healthcare",
+      "credits": 2
+    },
+    {
+      "code": "BITS F217",
+      "name": "Environment, Development and Climate Change",
+      "credits": 3
+    },
+    {
+      "code": "BITS F225",
+      "name": "Environmental Studies",
+      "credits": 3
+    },
+    {
+      "code": "BITS F319",
+      "name": "Negotiation Skills and Techniques",
+      "credits": 2
+    },
+    {
+      "code": "BITS F320",
+      "name": "Managerial Skills",
+      "credits": 2
+    },
+    {
+      "code": "BITS F321",
+      "name": "Legal and Economic",
+      "credits": 4
+    },
+    {
+      "code": "BITS F333",
+      "name": "Project on Organisational Aspects",
+      "credits": 3
+    },
+    {
+      "code": "BITS F334",
+      "name": "Project on Organisational Aspects",
+      "credits": 3
+    },
+    {
+      "code": "BITS F372",
+      "name": "Data Communications and Networks",
+      "credits": 3
+    },
+    {
+      "code": "BITS F381",
+      "name": "TIC Projects",
+      "credits": 3
+    },
+    {
+      "code": "BITS F382",
+      "name": "Reading Course",
+      "credits": 3
+    },
+    {
+      "code": "BITS F383",
+      "name": "TIC Projects",
+      "credits": 3
+    },
+    {
+      "code": "BITS F398",
+      "name": "Creative Multimedia",
+      "credits": 2
+    },
+    {
+      "code": "BITS F414",
+      "name": "Introduction to Bioinformatics",
+      "credits": 3
+    },
+    {
+      "code": "BITS F428",
+      "name": "Essentials of Strategic Management",
+      "credits": 3
+    },
+    {
+      "code": "BITS F431",
+      "name": "Flexible Manufacturing Systems",
+      "credits": 3
+    },
+    {
+      "code": "BITS F441",
+      "name": "Robotics",
+      "credits": 3
+    },
+    {
+      "code": "BITS F442",
+      "name": "Remote Sensing and Image Processing",
+      "credits": 3
+    },
+    {
+      "code": "BITS F444",
+      "name": "Artificial Intelligence",
+      "credits": 3
+    },
+    {
+      "code": "BITS F445",
+      "name": "Neural Networks and Applications",
+      "credits": 3
+    },
+    {
+      "code": "BITS F447",
+      "name": "Multimedia Computing",
+      "credits": 3
+    },
+    {
+      "code": "BITS F448",
+      "name": "Retail Management Systems",
+      "credits": 3
+    },
+    {
+      "code": "BITS F449",
+      "name": "Financial Engineering",
+      "credits": 3
+    },
+    {
+      "code": "BITS F461",
+      "name": "Software Engineering",
+      "credits": 3
+    },
+    {
+      "code": "BITS F462",
+      "name": "Renewable Energy",
+      "credits": 3
+    },
+    {
+      "code": "BITS F468",
+      "name": "New Venture Creation",
+      "credits": 3
+    },
+    {
+      "code": "BITS F469",
+      "name": "Financing Infrastructure Projects",
+      "credits": 3
+    },
+    {
+      "code": "BITS F488",
+      "name": "Services Management Systems",
+      "credits": 3
+    },
+    {
+      "code": "BITS F490",
+      "name": "Project Management",
+      "credits": 4
+    },
+    {
+      "code": "BITS F493",
+      "name": "Business Analysis and Valuation",
+      "credits": 3
+    },
+    {
+      "code": "BITS F494",
+      "name": "Environmental Impact Assessment",
+      "credits": 3
+    },
+    {
+      "code": "MGTS F351",
+      "name": "Organisational Behaviour",
+      "credits": 3
+    },
+    {
+      "code": "PHY F221",
+      "name": "Modern Physics",
+      "credits": 3
+    },
+    {
+      "code": "PHY F345",
+      "name": "Quantum Mechanics for Engineers",
+      "credits": 3
+    }
+  ]
+}

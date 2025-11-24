@@ -1,0 +1,17 @@
+{
+  "name": "Lite",
+  "short_name": "Lite",
+  "description": "BITS Pilani! Its Tragic!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a84ff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
