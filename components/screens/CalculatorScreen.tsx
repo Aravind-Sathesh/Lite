@@ -86,7 +86,6 @@ export default function CalculatorScreen() {
             onClick={() => setShowAddModal(true)}
             className='w-full py-4 rounded-2xl font-semibold flex items-center justify-center gap-2 transition-all active:scale-95'
             style={{
-              border: `2px solid ${accentColor}`,
               color: `${accentColor}`,
             }}
           >
