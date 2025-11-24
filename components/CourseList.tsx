@@ -3,6 +3,8 @@
 import type { Course } from '@/hooks/useCGPA';
 import GlassCard from '@/components/GlassCard';
 import { Trash2 } from 'lucide-react';
+import UpdateCourseModal from '@/components/UpdateCourseModal';
+import { useState } from 'react';
 
 interface CourseListProps {
   courses: Course[];
@@ -23,21 +25,43 @@ export default function CourseList({
   onUpdate,
   accentColor,
 }: CourseListProps) {
+  const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
+
+  const handleUpdate = (updates: Partial<Course>) => {
+    if (selectedCourse) {
+      onUpdate(semesterId, selectedCourse.id, updates);
+    }
+    setSelectedCourse(null);
+  };
+
+  const handleDelete = () => {
+    if (selectedCourse) {
+      onDelete(semesterId, selectedCourse.id);
+    }
+    setSelectedCourse(null);
+  };
+
   return (
     <div className='space-y-2'>
       {courses.map((course) => (
         <GlassCard
           key={course.id}
-          className='p-4 rounded-2xl flex items-center gap-3'
+          className='p-4 rounded-2xl flex items-center gap-3 cursor-pointer'
+          onClick={() => setSelectedCourse(course)}
         >
           {/* Course Code */}
-          <div className='shrink-0 text-center'>
-            <p className='text-xs text-neutral-500'>
-              {course.code.split(/(\d+)/)[0]}
-            </p>
-            <p className='text-sm font-semibold text-white'>
-              {course.code.split(/(\d+)/)[1] || ''}
-            </p>
+          <div className='shrink-0 text-center min-w-10'>
+            {(() => {
+              const match = course.code.match(/^([A-Za-z]+)(.*)$/);
+              const prefix = match?.[1] || '';
+              const rest = match?.[2] || '';
+              return (
+                <>
+                  <p className='text-xs text-neutral-500'>{prefix}</p>
+                  <p className='text-sm font-semibold text-white'>{rest}</p>
+                </>
+              );
+            })()}
           </div>
 
           {/* Course Info */}
@@ -49,19 +73,22 @@ export default function CourseList({
           </div>
 
           {/* Grade */}
-          <div className='flex items-center gap-2'>
+          <div className='flex items-center gap-2 min-w-4'>
             <div style={{ color: accentColor }} className='text-sm font-bold'>
               {course.grade}
             </div>
-            <button
-              onClick={() => onDelete(semesterId, course.id)}
-              className='p-1 hover:bg-white/5 rounded-lg transition-colors text-neutral-400 hover:text-red-400'
-            >
-              <Trash2 size={16} />
-            </button>
           </div>
         </GlassCard>
       ))}
+      {selectedCourse && (
+        <UpdateCourseModal
+          course={selectedCourse}
+          onClose={() => setSelectedCourse(null)}
+          onUpdate={handleUpdate}
+          onDelete={handleDelete}
+          accentColor={accentColor}
+        />
+      )}
     </div>
   );
 }

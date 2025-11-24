@@ -15,7 +15,7 @@ export default function Home() {
     <main className='relative w-full h-screen bg-neutral-950 flex items-center justify-center'>
       <div className='w-full max-w-md h-full relative flex flex-col overflow-hidden'>
         {/* Content Container */}
-        <div className='flex-1 overflow-y-auto pt-6 pb-4'>
+        <div className='flex-1 overflow-y-auto pt-6 pb-24'>
           {activeScreen === 'calculator' && <CalculatorScreen />}
           {activeScreen === 'summary' && <SummaryScreen />}
           {activeScreen === 'settings' && <SettingsScreen />}

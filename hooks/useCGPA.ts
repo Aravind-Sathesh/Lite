@@ -84,14 +84,17 @@ export function useCGPA() {
 
   const calculateSGPA = (semester: Semester): number => {
     if (semester.courses.length === 0) return 0;
-    const totalGradePoints = semester.courses.reduce((sum, course) => {
+    const filteredCourses = semester.courses;
+    const totalGradePoints = filteredCourses.reduce((sum, course) => {
+      if (course.type === 'GD' || course.type === 'CLR') return sum;
       const gradePoint = GRADING_SCALE[course.grade] || 0;
       return sum + gradePoint * course.credits;
     }, 0);
-    const totalCredits = semester.courses.reduce(
+    const totalCredits = filteredCourses.reduce(
       (sum, course) => sum + course.credits,
       0
     );
+    // For SGPA, credits include GD/CLR, but grade points do not
     return totalCredits > 0 ? totalGradePoints / totalCredits : 0;
   };
 
@@ -101,6 +104,7 @@ export function useCGPA() {
 
     data.semesters.forEach((semester) => {
       semester.courses.forEach((course) => {
+        if (course.type === 'GD' || course.type === 'CLR') return;
         const gradePoint = GRADING_SCALE[course.grade] || 0;
         totalGradePoints += gradePoint * course.credits;
         totalCredits += course.credits;

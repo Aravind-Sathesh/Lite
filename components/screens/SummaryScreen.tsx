@@ -125,7 +125,7 @@ export default function SummaryScreen() {
             <span className='text-sm text-neutral-400'>Core Courses</span>
             <div className='text-right'>
               <div className='text-xl font-semibold text-white'>
-                {stats.cdcCourses} / 14
+                {stats.cdcCourses - 19} / 14
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@ export default function SummaryScreen() {
               <thead>
                 <tr className='border-b border-white/8'>
                   <th className='text-left py-2 px-2 text-neutral-400 font-medium'>
-                    Sem
+                    Semester
                   </th>
                   <th className='text-left py-2 px-2 text-neutral-400 font-medium'>
                     SGPA
