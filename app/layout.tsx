@@ -70,7 +70,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#0a84ff" />
         <link rel="manifest" href="/manifest.json" />
       </head>
-      <body className={`font-sans antialiased bg-neutral-950`}>
+      <body className={`font-sans antialiased bg-neutral-950 overflow-hidden`}>
         <div style={{ paddingTop: 'env(safe-area-inset-top)' }}>
           <ColorProvider>
             {children}
