@@ -45,7 +45,7 @@ export const viewport: Viewport = {
   maximumScale: 1,
   userScalable: false,
   viewportFit: 'cover',
-  themeColor: '#000000', // Changed to black to match bg-neutral-950
+  themeColor: '#000000',
 };
 
 export default function RootLayout({
@@ -55,9 +55,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`font-sans antialiased bg-neutral-950 overscroll-none`}>
+      <body
+        className={`font-sans antialiased bg-neutral-950 min-h-screen overflow-x-hidden`}
+      >
         <div
-          className='relative min-h-dvh w-full bg-neutral-950'
+          className='relative min-h-dvh w-full'
           style={{ paddingTop: 'env(safe-area-inset-top)' }}
         >
           <ColorProvider>
