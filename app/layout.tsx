@@ -45,7 +45,7 @@ export const viewport: Viewport = {
   maximumScale: 1,
   userScalable: false,
   viewportFit: 'cover',
-  themeColor: '#0a0a0a', // Matches neutral-950
+  themeColor: '#0a0a0a',
 };
 
 export default function RootLayout({
@@ -59,7 +59,6 @@ export default function RootLayout({
         className={`font-sans antialiased bg-neutral-950 min-h-dvh w-full`}
         style={{
           paddingTop: 'env(safe-area-inset-top)',
-          boxSizing: 'border-box',
         }}
       >
         <ColorProvider>

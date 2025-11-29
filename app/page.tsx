@@ -12,10 +12,9 @@ export default function Home() {
   const [activeScreen, setActiveScreen] = useState<Screen>('calculator');
 
   return (
-    <main className='relative w-full h-screen bg-neutral-950 flex items-center justify-center'>
-      <div className='w-full max-w-md h-full relative flex flex-col overflow-hidden'>
-        {/* Content Container */}
-        <div className='flex-1 overflow-y-auto pt-0 pb-32'>
+    <main className='relative w-full min-h-dvh overflow-hidden bg-neutral-950 flex justify-center'>
+      <div className='w-full max-w-md h-full flex flex-col'>
+        <div className='flex-1 overflow-y-auto pb-32'>
           {activeScreen === 'calculator' && <CalculatorScreen />}
           {activeScreen === 'summary' && <SummaryScreen />}
           {activeScreen === 'settings' && <SettingsScreen />}
