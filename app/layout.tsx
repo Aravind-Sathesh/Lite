@@ -1,6 +1,4 @@
-import type { Metadata } from 'next';
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
-import type React from 'react';
+import type { Metadata, Viewport } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { ColorProvider } from '@/contexts/ColorContext';
@@ -9,20 +7,16 @@ import { Toaster } from '@/components/ui/sonner';
 const _geist = Geist({ subsets: ['latin'] });
 const _geistMono = Geist_Mono({ subsets: ['latin'] });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: 'Lite',
   description: 'BITS Pilani! Its Tragic!',
   icons: {
     icon: [
-      {
-        url: '/favicon.ico',
-        type: 'image/x-icon',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
+      { url: '/favicon.ico', type: 'image/x-icon' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
     ],
     apple: '/favicon.ico',
   },
@@ -32,7 +26,6 @@ export const metadata: Metadata = {
     statusBarStyle: 'black-translucent',
     capable: true,
   },
-  // themeColor moved to viewport below
   openGraph: {
     title: 'Lite',
     description: 'BITS Pilani! Its Tragic!',
@@ -46,13 +39,13 @@ export const metadata: Metadata = {
   },
 };
 
-export const viewport = {
+export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
   viewportFit: 'cover',
-  themeColor: '#0a84ff',
+  themeColor: '#000000', // Changed to black to match bg-neutral-950
 };
 
 export default function RootLayout({
@@ -62,16 +55,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <head>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="Lite" />
-        <meta name="theme-color" content="#0a84ff" />
-        <link rel="manifest" href="/manifest.json" />
-      </head>
-      <body className={`font-sans antialiased bg-neutral-950 overflow-hidden`}>
-        <div style={{ paddingTop: 'env(safe-area-inset-top)' }}>
+      <body className={`font-sans antialiased bg-neutral-950 overscroll-none`}>
+        <div
+          className='relative min-h-dvh w-full bg-neutral-950'
+          style={{ paddingTop: 'env(safe-area-inset-top)' }}
+        >
           <ColorProvider>
             {children}
             <Toaster />
