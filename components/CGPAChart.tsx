@@ -16,7 +16,7 @@ export default function CGPAChart({ data, accentColor }: CGPAChartProps) {
 
   if (semesters.length === 0) {
     return (
-      <div className='h-48 bg-white/3 border border-white/8 rounded-2xl flex items-center justify-center text-neutral-500 text-sm'>
+      <div className='h-48 bg-white/3 border border-white/8 rounded-2xl flex items-center justify-center text-neutral-400 text-sm'>
         No data to display
       </div>
     );

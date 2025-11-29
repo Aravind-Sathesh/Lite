@@ -53,7 +53,7 @@ export default function CalculatorScreen() {
   const cgpa = calculateCGPA();
 
   return (
-    <div className='space-y-4 px-4 font-sans'>
+    <div className='space-y-4 px-4 font-sans -mb-8'>
       {selectedSemester && (
         <StatisticsGrid
           semesterName={selectedSemester.name}
@@ -96,7 +96,7 @@ export default function CalculatorScreen() {
           {/* Empty State */}
           {selectedSemester.courses.length === 0 && (
             <div className='text-center py-12'>
-              <p className='text-neutral-500 text-sm mb-4'>
+              <p className='text-neutral-400 text-sm mb-4'>
                 No courses added yet
               </p>
               <button

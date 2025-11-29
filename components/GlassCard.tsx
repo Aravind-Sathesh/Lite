@@ -15,7 +15,7 @@ export default function GlassCard({
 }: GlassCardProps) {
   return (
     <div
-      className={`bg-neutral-900 border border-neutral-800 rounded-2xl ${className}`}
+      className={`bg-[#1c1c1c] border border-neutral-800 rounded-2xl ${className}`}
       onClick={onClick}
       role={onClick ? 'button' : undefined}
       tabIndex={onClick ? 0 : undefined}

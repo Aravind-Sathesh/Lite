@@ -80,7 +80,7 @@ export default function SettingsScreen() {
                 <p className='text-sm text-neutral-200 font-mono uppercase tracking-wider'>
                   {accentColor}
                 </p>
-                <Palette size={16} className='text-neutral-500' />
+                <Palette size={16} className='text-neutral-400' />
               </div>
             </div>
 
@@ -128,7 +128,7 @@ export default function SettingsScreen() {
 
       {/* Info */}
       <GlassCard className='p-4 rounded-xl'>
-        <p className='text-xs text-neutral-500'>
+        <p className='text-xs text-neutral-400'>
           Your data is stored locally on this device. Export your data regularly
           to create backups.
         </p>

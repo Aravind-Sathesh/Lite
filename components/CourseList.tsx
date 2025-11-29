@@ -57,7 +57,7 @@ export default function CourseList({
               const rest = match?.[2] || '';
               return (
                 <>
-                  <p className='text-xs text-neutral-500'>{prefix}</p>
+                  <p className='text-xs text-neutral-400'>{prefix}</p>
                   <p className='text-sm font-semibold text-white'>{rest}</p>
                 </>
               );
@@ -69,7 +69,7 @@ export default function CourseList({
             <p className='text-sm font-medium text-white truncate'>
               {course.name}
             </p>
-            <p className='text-xs text-neutral-500'>{course.credits} credits</p>
+            <p className='text-xs text-neutral-400'>{course.credits} credits</p>
           </div>
 
           {/* Grade */}

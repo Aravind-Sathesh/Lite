@@ -98,7 +98,7 @@ export default function SummaryScreen() {
       <div>
         <div className='flex justify-between items-center mb-3'>
           <span className='text-sm text-neutral-400'>Total Progress</span>
-          <span className='text-xs text-neutral-500'>
+          <span className='text-xs text-neutral-400'>
             {totalCredits} / 144 Credits (
             {Math.round((totalCredits / 144) * 100)}%)
           </span>

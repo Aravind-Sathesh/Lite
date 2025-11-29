@@ -32,7 +32,7 @@ export default function StatisticsGrid({
     <div className='grid grid-cols-2 gap-3'>
       <div className='relative'>
         <GlassCard className='p-4'>
-          <p className='text-xs text-neutral-500 mb-1 font-sans'>Semester</p>
+          <p className='text-xs text-neutral-400 mb-1 font-sans'>Semester</p>
           <div className='p-2 cursor-pointer hover:bg-neutral-800 transition-colors'>
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -77,7 +77,7 @@ export default function StatisticsGrid({
       </div>
 
       <GlassCard className='p-4'>
-        <p className='text-xs text-neutral-500 mb-1 font-sans'>CGPA</p>
+        <p className='text-xs text-neutral-400 mb-1 font-sans'>CGPA</p>
         <p
           className='text-2xl font-light font-sans'
           style={{ color: accentColor }}
@@ -87,7 +87,7 @@ export default function StatisticsGrid({
       </GlassCard>
 
       <GlassCard className='p-4'>
-        <p className='text-xs text-neutral-500 mb-1 font-sans'>SGPA</p>
+        <p className='text-xs text-neutral-400 mb-1 font-sans'>SGPA</p>
         <p
           className='text-2xl font-light font-sans'
           style={{ color: accentColor }}
@@ -97,7 +97,7 @@ export default function StatisticsGrid({
       </GlassCard>
 
       <GlassCard className='p-4'>
-        <p className='text-xs text-neutral-500 mb-1 font-sans'>Credits</p>
+        <p className='text-xs text-neutral-400 mb-1 font-sans'>Credits</p>
         <p
           className='text-2xl font-light font-sans'
           style={{ color: accentColor }}
