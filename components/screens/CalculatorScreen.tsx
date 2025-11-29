@@ -53,7 +53,7 @@ export default function CalculatorScreen() {
   const cgpa = calculateCGPA();
 
   return (
-    <div className='space-y-4 px-4 font-sans -mb-8'>
+    <div className='space-y-4 px-4 font-sans'>
       {selectedSemester && (
         <StatisticsGrid
           semesterName={selectedSemester.name}

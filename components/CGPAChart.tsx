@@ -53,7 +53,7 @@ export default function CGPAChart({ data, accentColor }: CGPAChartProps) {
       width='100%'
       height='auto'
       viewBox={`0 0 ${svgWidth} ${svgHeight}`}
-      className='w-full'
+      className='w-full pb-8'
     >
       <defs>
         <linearGradient id='areaGradient' x1='0%' y1='0%' x2='0%' y2='100%'>
