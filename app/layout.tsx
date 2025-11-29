@@ -45,7 +45,7 @@ export const viewport: Viewport = {
   maximumScale: 1,
   userScalable: false,
   viewportFit: 'cover',
-  themeColor: '#000000',
+  themeColor: '#0a0a0a', // Matches neutral-950
 };
 
 export default function RootLayout({
@@ -54,19 +54,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html lang='en' className='bg-neutral-950'>
       <body
-        className={`font-sans antialiased bg-neutral-950 min-h-screen overflow-x-hidden`}
+        className={`font-sans antialiased bg-neutral-950 min-h-dvh w-full`}
+        style={{
+          paddingTop: 'env(safe-area-inset-top)',
+          boxSizing: 'border-box',
+        }}
       >
-        <div
-          className='relative min-h-dvh w-full'
-          style={{ paddingTop: 'env(safe-area-inset-top)' }}
-        >
-          <ColorProvider>
-            {children}
-            <Toaster />
-          </ColorProvider>
-        </div>
+        <ColorProvider>
+          {children}
+          <Toaster />
+        </ColorProvider>
       </body>
     </html>
   );
