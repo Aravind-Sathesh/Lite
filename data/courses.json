@@ -2776,6 +2776,16 @@
       "credits": 0
     },
     {
+      "code": "BITS F221",
+      "name": "Practice School 1",
+      "credits": 5
+    },
+    {
+      "code": "BITS F412",
+      "name": "Practice School 2",
+      "credits": 20
+    },
+    {
       "code": "GS F223",
       "name": "Introduction to Mass Communication",
       "credits": 3
