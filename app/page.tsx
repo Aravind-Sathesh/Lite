@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import CalculatorScreen from '@/components/screens/CalculatorScreen';
 import SummaryScreen from '@/components/screens/SummaryScreen';
 import SettingsScreen from '@/components/screens/SettingsScreen';
@@ -10,6 +10,15 @@ type Screen = 'calculator' | 'summary' | 'settings';
 
 export default function Home() {
   const [activeScreen, setActiveScreen] = useState<Screen>('calculator');
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    queueMicrotask(() => setIsMounted(true));
+  }, []);
+
+  if (!isMounted) {
+    return <main className='relative w-full min-h-dvh bg-neutral-950' />;
+  }
 
   return (
     <main className='relative w-full min-h-dvh overflow-hidden bg-neutral-950 flex justify-center'>

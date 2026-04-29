@@ -13,11 +13,12 @@ export default function CalculatorScreen() {
     data,
     calculateSGPA,
     calculateCGPA,
+    calculateCGPAThroughSemester,
     addCourse,
     deleteCourse,
     updateCourse,
   } = useCGPA();
-  const { accentColor } = useColor();
+  const { accentColor, cgpaDisplayMode } = useColor();
   const [selectedSemesterId, setSelectedSemesterId] = useState<string>(() => {
     const lastSelected =
       typeof window !== 'undefined'
@@ -47,10 +48,13 @@ export default function CalculatorScreen() {
   };
 
   const selectedSemester = data.semesters.find(
-    (s) => s.id === selectedSemesterId
+    (s) => s.id === selectedSemesterId,
   );
   const sgpa = selectedSemester ? calculateSGPA(selectedSemester) : 0;
-  const cgpa = calculateCGPA();
+  const cgpa =
+    selectedSemester && cgpaDisplayMode === 'through-selected'
+      ? calculateCGPAThroughSemester(selectedSemester.id)
+      : calculateCGPA();
 
   return (
     <div className='space-y-4 px-4 font-sans'>
@@ -59,7 +63,7 @@ export default function CalculatorScreen() {
           semesterName={selectedSemester.name}
           totalCredits={selectedSemester.courses.reduce(
             (sum, c) => sum + c.credits,
-            0
+            0,
           )}
           sgpa={sgpa}
           cgpa={cgpa}

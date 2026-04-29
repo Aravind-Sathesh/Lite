@@ -37,50 +37,47 @@ const GRADING_SCALE: Record<string, number> = {
 const STORAGE_KEY = 'cgpa_data_courses';
 
 export function useCGPA() {
-  const [data, setData] = useState<CGPAData>({ semesters: [] });
-  const [mounted, setMounted] = useState(false);
+  const [data, setData] = useState<CGPAData>(() => {
+    if (typeof window === 'undefined') {
+      return { semesters: [] };
+    }
 
-  // Initialize from localStorage
-  useEffect(() => {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
       try {
-        setData(JSON.parse(saved));
+        return JSON.parse(saved);
       } catch (e) {
         console.error('Failed to parse CGPA data:', e);
       }
-    } else {
-      // Initialize with default semesters
-      const defaultSemesters = [
-        '1-1',
-        '1-2',
-        '2-1',
-        '2-2',
-        'ST-1',
-        '3-1',
-        '3-2',
-        'ST-2',
-        '4-1',
-        '4-2',
-      ].map((name) => ({
-        id: name,
-        name,
-        courses: [],
-      }));
-      setData({
-        semesters: defaultSemesters,
-        lastSelectedSemester: defaultSemesters[0]?.id,
-      });
     }
-    setMounted(true);
-  }, []);
+
+    const defaultSemesters = [
+      '1-1',
+      '1-2',
+      '2-1',
+      '2-2',
+      'ST-1',
+      '3-1',
+      '3-2',
+      'ST-2',
+      '4-1',
+      '4-2',
+    ].map((name) => ({
+      id: name,
+      name,
+      courses: [],
+    }));
+
+    return {
+      semesters: defaultSemesters,
+      lastSelectedSemester: defaultSemesters[0]?.id,
+    };
+  });
 
   // Save to localStorage whenever data changes
   useEffect(() => {
-    if (mounted) {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-    }
-  }, [data, mounted]);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  }, [data]);
 
   const calculateSGPA = (semester: Semester): number => {
     if (semester.courses.length === 0) return 0;
@@ -92,17 +89,17 @@ export function useCGPA() {
     }, 0);
     const totalCredits = filteredCourses.reduce(
       (sum, course) => sum + course.credits,
-      0
+      0,
     );
     // For SGPA, credits include GD/CLR, but grade points do not
     return totalCredits > 0 ? totalGradePoints / totalCredits : 0;
   };
 
-  const calculateCGPA = (): number => {
+  const calculateCGPAForSemesters = (semesters: Semester[]): number => {
     let totalGradePoints = 0;
     let totalCredits = 0;
 
-    data.semesters.forEach((semester) => {
+    semesters.forEach((semester) => {
       semester.courses.forEach((course) => {
         if (course.type === 'GD' || course.type === 'CLR') return;
         const gradePoint = GRADING_SCALE[course.grade] || 0;
@@ -112,6 +109,24 @@ export function useCGPA() {
     });
 
     return totalCredits > 0 ? totalGradePoints / totalCredits : 0;
+  };
+
+  const calculateCGPA = (): number => {
+    return calculateCGPAForSemesters(data.semesters);
+  };
+
+  const calculateCGPAThroughSemester = (semesterId: string): number => {
+    const semesterIndex = data.semesters.findIndex(
+      (semester) => semester.id === semesterId,
+    );
+
+    if (semesterIndex === -1) {
+      return calculateCGPA();
+    }
+
+    return calculateCGPAForSemesters(
+      data.semesters.slice(0, semesterIndex + 1),
+    );
   };
 
   const addCourse = (semesterId: string, course: Omit<Course, 'id'>) => {
@@ -148,7 +163,7 @@ export function useCGPA() {
   const updateCourse = (
     semesterId: string,
     courseId: string,
-    updates: Partial<Course>
+    updates: Partial<Course>,
   ) => {
     setData((prev) => ({
       semesters: prev.semesters.map((sem) => {
@@ -156,7 +171,7 @@ export function useCGPA() {
           return {
             ...sem,
             courses: sem.courses.map((c) =>
-              c.id === courseId ? { ...c, ...updates } : c
+              c.id === courseId ? { ...c, ...updates } : c,
             ),
           };
         }
@@ -187,11 +202,11 @@ export function useCGPA() {
     data,
     calculateSGPA,
     calculateCGPA,
+    calculateCGPAThroughSemester,
     addCourse,
     deleteCourse,
     updateCourse,
     exportData,
     importData,
-    mounted,
   };
 }

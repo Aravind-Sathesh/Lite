@@ -6,7 +6,8 @@ import GlassCard from '@/components/GlassCard';
 import { Download, Upload, Palette } from 'lucide-react';
 
 export default function SettingsScreen() {
-  const { accentColor, setAccentColor } = useColor();
+  const { accentColor, setAccentColor, cgpaDisplayMode, setCgpaDisplayMode } =
+    useColor();
   const { exportData, importData } = useCGPA();
 
   const handleExport = async () => {
@@ -93,6 +94,49 @@ export default function SettingsScreen() {
             />
           </GlassCard>
         </div>
+      </div>
+
+      {/* CGPA Display Mode */}
+      <div>
+        <h3 className='text-sm font-semibold text-neutral-200 mb-4'>
+          CGPA Display
+        </h3>
+        <GlassCard className='p-2 rounded-2xl flex gap-2'>
+          <button
+            onClick={() => setCgpaDisplayMode('overall')}
+            className='flex-1 py-3 rounded-xl text-sm font-medium transition-all active:scale-95'
+            style={{
+              backgroundColor:
+                cgpaDisplayMode === 'overall' ? accentColor : 'transparent',
+              color:
+                cgpaDisplayMode === 'overall'
+                  ? '#fff'
+                  : 'rgba(255,255,255,0.7)',
+            }}
+          >
+            Overall
+          </button>
+          <button
+            onClick={() => setCgpaDisplayMode('through-selected')}
+            className='flex-1 py-3 rounded-xl text-sm font-medium transition-all active:scale-95'
+            style={{
+              backgroundColor:
+                cgpaDisplayMode === 'through-selected'
+                  ? accentColor
+                  : 'transparent',
+              color:
+                cgpaDisplayMode === 'through-selected'
+                  ? '#fff'
+                  : 'rgba(255,255,255,0.7)',
+            }}
+          >
+            Up to Semester
+          </button>
+        </GlassCard>
+        <p className='mt-2 text-xs text-neutral-400'>
+          Overall keeps the current CGPA across all semesters. Up to Semester
+          ignores any future semesters when showing the selected semester CGPA.
+        </p>
       </div>
 
       {/* Data Management */}
