@@ -1,14 +1,24 @@
 'use client';
 
+import { useState } from 'react';
 import { useColor, COLOR_PRESETS } from '@/contexts/ColorContext';
 import { useCGPA } from '@/hooks/useCGPA';
 import GlassCard from '@/components/GlassCard';
-import { Download, Upload, Palette } from 'lucide-react';
+import { Download, Upload, Palette, ChevronDown } from 'lucide-react';
+import minorsData from '@/data/minors.json';
 
 export default function SettingsScreen() {
-  const { accentColor, setAccentColor, cgpaDisplayMode, setCgpaDisplayMode } =
-    useColor();
+  const {
+    accentColor,
+    setAccentColor,
+    cgpaDisplayMode,
+    setCgpaDisplayMode,
+    minor,
+    setMinor,
+  } = useColor();
   const { exportData, importData } = useCGPA();
+  const [isMinorOpen, setIsMinorOpen] = useState(false);
+  const minorOptions = ['', ...minorsData.minors.map((m) => m.name)];
 
   const handleExport = async () => {
     const data = exportData();
@@ -136,6 +146,58 @@ export default function SettingsScreen() {
         <p className='mt-2 text-xs text-neutral-400'>
           Overall keeps the current CGPA across all semesters. Up to Semester
           ignores any future semesters when showing the selected semester CGPA.
+        </p>
+      </div>
+
+      {/* Minor Program */}
+      <div>
+        <h3 className='text-sm font-semibold text-neutral-200 mb-4'>Minor</h3>
+        <div className='relative'>
+          <GlassCard className='px-4 py-3 rounded-2xl cursor-pointer hover:bg-white/10 transition-colors'>
+            <button
+              type='button'
+              onClick={() => setIsMinorOpen(!isMinorOpen)}
+              className='w-full flex items-center justify-between text-sm text-white font-medium'
+            >
+              <span>{minor || 'None'}</span>
+              <ChevronDown
+                size={16}
+                className='text-neutral-400'
+                style={{
+                  transform: isMinorOpen ? 'rotate(180deg)' : '',
+                  transition: 'transform 0.2s',
+                }}
+              />
+            </button>
+          </GlassCard>
+          {isMinorOpen && (
+            <div className='absolute top-full left-0 right-0 mt-2 z-40'>
+              <GlassCard className='rounded-2xl overflow-hidden'>
+                <div className='max-h-64 overflow-y-auto overscroll-contain'>
+                  {minorOptions.map((m) => (
+                    <button
+                      key={m || 'none'}
+                      type='button'
+                      onClick={() => {
+                        setMinor(m);
+                        setIsMinorOpen(false);
+                      }}
+                      className={`w-full text-left px-4 py-3 text-sm transition-colors ${
+                        minor === m
+                          ? 'bg-white/10 text-neutral-100 font-medium'
+                          : 'text-neutral-300 hover:bg-white/5'
+                      }`}
+                    >
+                      {m || 'None'}
+                    </button>
+                  ))}
+                </div>
+              </GlassCard>
+            </div>
+          )}
+        </div>
+        <p className='mt-2 text-xs text-neutral-400'>
+          Lets you mark courses as counting towards your minor and tracks progress in Summary.
         </p>
       </div>
 

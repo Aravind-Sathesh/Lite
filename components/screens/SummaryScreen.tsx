@@ -5,10 +5,16 @@ import { useCGPA } from '@/hooks/useCGPA';
 import { useColor } from '@/contexts/ColorContext';
 import GlassCard from '@/components/GlassCard';
 import CGPAChart from '@/components/CGPAChart';
+import minorsData from '@/data/minors.json';
 
 export default function SummaryScreen() {
   const { data, calculateCGPA, calculateSGPA } = useCGPA();
-  const { accentColor } = useColor();
+  const { accentColor, minor } = useColor();
+  const minorProgram = minorsData.minors.find((m) => m.name === minor);
+  const minorCourses = data.semesters.flatMap((sem) =>
+    sem.courses.filter((c) => c.minor),
+  );
+  const minorUnits = minorCourses.reduce((s, c) => s + c.credits, 0);
   const [showTable, setShowTable] = useState(false);
 
   const cgpa = calculateCGPA();
@@ -165,6 +171,25 @@ export default function SummaryScreen() {
             </div>
           </div>
         </GlassCard>
+
+        {minorProgram && (
+          <GlassCard className='p-4 rounded-2xl'>
+            <div className='flex items-center justify-between'>
+              <div>
+                <span className='text-sm text-neutral-400'>Minor</span>
+                <p className='text-xs text-neutral-500'>{minorProgram.name}</p>
+              </div>
+              <div className='text-right'>
+                <div className='text-xl font-semibold text-white'>
+                  {minorCourses.length} / {minorProgram.courses}
+                </div>
+                <p className='text-xs text-neutral-500'>
+                  {minorUnits} / {minorProgram.units} units
+                </p>
+              </div>
+            </div>
+          </GlassCard>
+        )}
       </div>
 
       {/* Chart Section */}

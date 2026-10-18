@@ -10,6 +10,8 @@ type ColorContextType = {
   setAccentColor: (color: string) => void;
   cgpaDisplayMode: CGPADisplayMode;
   setCgpaDisplayMode: (mode: CGPADisplayMode) => void;
+  minor: string;
+  setMinor: (minor: string) => void;
 };
 
 const ColorContext = createContext<ColorContextType | undefined>(undefined);
@@ -66,14 +68,31 @@ export function ColorProvider({ children }: { children: React.ReactNode }) {
     },
   );
 
+  // '' means no minor
+  const [minor, setMinorState] = useState(() => {
+    if (typeof window === 'undefined') {
+      return '';
+    }
+
+    try {
+      const settings = JSON.parse(localStorage.getItem('cgpa_settings') || '{}');
+      return typeof settings.minor === 'string' ? settings.minor : '';
+    } catch (e) {
+      console.error('Failed to parse settings:', e);
+      return '';
+    }
+  });
+
   const persistSettings = (nextSettings: {
     accentColor?: string;
     cgpaDisplayMode?: CGPADisplayMode;
+    minor?: string;
   }) => {
     try {
       const settings = {
         accentColor,
         cgpaDisplayMode,
+        minor,
         ...nextSettings,
       };
       localStorage.setItem('cgpa_settings', JSON.stringify(settings));
@@ -93,6 +112,11 @@ export function ColorProvider({ children }: { children: React.ReactNode }) {
     persistSettings({ cgpaDisplayMode: mode });
   };
 
+  const setMinor = (next: string) => {
+    setMinorState(next);
+    persistSettings({ minor: next });
+  };
+
   useEffect(() => {
     document.documentElement.style.setProperty('--accent-dynamic', accentColor);
   }, [accentColor]);
@@ -104,6 +128,8 @@ export function ColorProvider({ children }: { children: React.ReactNode }) {
         setAccentColor,
         cgpaDisplayMode,
         setCgpaDisplayMode,
+        minor,
+        setMinor,
       }}
     >
       {children}

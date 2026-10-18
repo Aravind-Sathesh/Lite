@@ -9,6 +9,7 @@ export interface Course {
   credits: number;
   grade: string;
   type?: string;
+  minor?: boolean;
 }
 
 export interface Semester {

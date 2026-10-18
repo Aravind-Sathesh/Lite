@@ -1,0 +1,566 @@
+{
+  "minors": [
+    {
+      "name": "Aeronautics",
+      "courses": 6,
+      "units": 18,
+      "core": [
+        "AN F311",
+        "AN F312",
+        "AN F313"
+      ],
+      "electives": [
+        "AN F314",
+        "AN F315",
+        "ME F415",
+        "ME F418",
+        "ME F435",
+        "ME F452",
+        "ME F482",
+        "ME F485",
+        "EEE F242",
+        "EEE F417",
+        "ME F376"
+      ]
+    },
+    {
+      "name": "Biomedical Engineering",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "BITS F418",
+        "PHA F214"
+      ],
+      "electives": [
+        "BIO F215",
+        "BITS F315",
+        "CHEM F414",
+        "MST F333",
+        "PHA F215",
+        "BITS F415",
+        "BITS F417",
+        "BITS F441",
+        "BIO G532",
+        "CS F320",
+        "EEE F420",
+        "EEE F435",
+        "EEE F432",
+        "INSTR F432",
+        "ME F324"
+      ]
+    },
+    {
+      "name": "Computational Economics",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "ECON F215",
+        "ECON F241",
+        "ECON F242"
+      ],
+      "electives": [
+        "BITS F314",
+        "BITS F464",
+        "CS F320",
+        "ECON F342",
+        "ECON F419",
+        "ECON F420",
+        "MATH F424"
+      ]
+    },
+    {
+      "name": "Computational Mechanics",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "MATH F313",
+        "ME F427"
+      ],
+      "electives": [
+        "BITS F464",
+        "CS F422",
+        "MATH F425",
+        "MATH F426",
+        "ME G512",
+        "ME F321",
+        "ME F485",
+        "ME F430",
+        "ME G515"
+      ]
+    },
+    {
+      "name": "Computing and Intelligence",
+      "courses": 6,
+      "units": 18,
+      "core": [
+        "BITS F232",
+        "CS F372",
+        "CS F407"
+      ],
+      "electives": [
+        "BITS F311",
+        "BITS F452",
+        "BITS F459",
+        "BITS F463",
+        "BITS F464",
+        "CS F212",
+        "CS F213",
+        "CS F301",
+        "CS F303",
+        "CS F314",
+        "CS F315",
+        "CS F321",
+        "CS F415",
+        "CS F437",
+        "IS F311",
+        "IS F341"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "BITS F464",
+        "CS F320",
+        "MATH F432"
+      ],
+      "electives": [
+        "BITS F453",
+        "BITS F454",
+        "BITS F459",
+        "CS F317",
+        "CS F407",
+        "CS F415",
+        "CS F425",
+        "CS F426",
+        "CS F429",
+        "CS F432",
+        "CS F433",
+        "CS F434",
+        "CS F437",
+        "CS F469",
+        "CS G519",
+        "MATH F212",
+        "ME F320",
+        "MATH F353",
+        "MATH F424",
+        "MATH F471"
+      ]
+    },
+    {
+      "name": "Data Science in Climate and Health",
+      "courses": 6,
+      "units": 17,
+      "core": [
+        "BITS F329",
+        "BITS F464",
+        "CS F320",
+        "MATH F432"
+      ],
+      "electives": [
+        "CE F326",
+        "CS F434",
+        "GS F212",
+        "MPH G510"
+      ]
+    },
+    {
+      "name": "English Studies",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "GS F241",
+        "HSS F337"
+      ],
+      "electives": [
+        "GS F221",
+        "GS F244",
+        "GS F245",
+        "HSS F222",
+        "HSS F227",
+        "HSS F228",
+        "HSS F342",
+        "GS F242",
+        "GS F322",
+        "HSS F221",
+        "HSS F226",
+        "HSS F237",
+        "HSS F316",
+        "HSS F327",
+        "HSS F330",
+        "HSS F332",
+        "HSS F335",
+        "HSS F336",
+        "HSS F338",
+        "HSS F340",
+        "HSS F349",
+        "HSS F373",
+        "HSS F399"
+      ]
+    },
+    {
+      "name": "Entrepreneurship",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "BITS F468",
+        "BITS F482",
+        "ECON F414",
+        "ECON F212"
+      ],
+      "electives": [
+        "BITS F322",
+        "BITS F323",
+        "BITS F324",
+        "BITS F325",
+        "BITS F326",
+        "BITS F427"
+      ]
+    },
+    {
+      "name": "Film and Media",
+      "courses": 6,
+      "units": 18,
+      "core": [
+        "GS F223",
+        "GS F244",
+        "GS F322"
+      ],
+      "electives": [
+        "GS F224",
+        "GS F242",
+        "GS F321",
+        "GS F343",
+        "HSS F332",
+        "HSS F391"
+      ]
+    },
+    {
+      "name": "Finance",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "ECON F212",
+        "FIN F315"
+      ],
+      "electives": [
+        "ECON F241",
+        "ECON F312",
+        "ECON F355",
+        "ECON F411",
+        "ECON F413",
+        "FIN F242",
+        "FIN F243",
+        "FIN F311",
+        "FIN F312",
+        "FIN F313",
+        "FIN F314",
+        "FIN F414"
+      ]
+    },
+    {
+      "name": "Management",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "BITS F428",
+        "MGTS F211",
+        "MGTS F314"
+      ],
+      "electives": [
+        "BITS F326",
+        "BITS F330",
+        "ECON F415",
+        "ECON F434",
+        "ECON F435",
+        "HSS F328",
+        "MF F219",
+        "MF F319",
+        "ME F443",
+        "MGTS F311",
+        "MGTS F313",
+        "MGTS F315",
+        "MGTS F316",
+        "MGTS F351"
+      ]
+    },
+    {
+      "name": "Materials Science and Engineering",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "CHE F243",
+        "ME F213",
+        "MST F331",
+        "MST F332"
+      ],
+      "electives": [
+        "BITS F416",
+        "CHE F433",
+        "CHEM F223",
+        "CHEM F326",
+        "CHEM F336",
+        "ME F452",
+        "MST F333",
+        "MST F334",
+        "MST F335",
+        "MST F336",
+        "MST F337",
+        "MST F338",
+        "MST F339",
+        "PHY F379",
+        "PHY F414",
+        "PHY F416"
+      ]
+    },
+    {
+      "name": "Nanoscience and Nanobiotechnology",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "BIOT F422",
+        "BITS F416",
+        "CHE F243",
+        "ME F216",
+        "MF F216"
+      ],
+      "electives": [
+        "BIO F417",
+        "CHEM F223",
+        "CHEM F327",
+        "CHEM F328",
+        "CHEM F333",
+        "CHEM F336",
+        "CHEM F414",
+        "MST F333"
+      ]
+    },
+    {
+      "name": "Philosophy, Economics and Politics",
+      "courses": 6,
+      "units": 18,
+      "core": [
+        "ECON F211",
+        "GS F211",
+        "HSS F235"
+      ],
+      "electives": [
+        "BITS F385",
+        "GS F231",
+        "GS F234",
+        "GS F243",
+        "GS F312",
+        "GS F313",
+        "GS F332",
+        "GS F333",
+        "HSS F232",
+        "HSS F236",
+        "HSS F315",
+        "HSS F322",
+        "HSS F331",
+        "HSS F333",
+        "HSS F343",
+        "HSS F345",
+        "HSS F346",
+        "HSS F350",
+        "HSS F353",
+        "HSS F354",
+        "HSS F355",
+        "HSS F356"
+      ]
+    },
+    {
+      "name": "Physics",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "PHY F212",
+        "ECE F212",
+        "EEE F212",
+        "INSTR F212",
+        "PHY F242",
+        "PHY F312"
+      ],
+      "electives": [
+        "BITS F316",
+        "BITS F386",
+        "PHY F211",
+        "PHY F213",
+        "PHY F214",
+        "PHY F215",
+        "PHY F241",
+        "PHY F243",
+        "PHY F244",
+        "PHY F311",
+        "PHY F313",
+        "PHY F315",
+        "PHY F318",
+        "PHY F341",
+        "PHY F342",
+        "PHY F343",
+        "PHY F346",
+        "PHY F418",
+        "PHY F426",
+        "PHY F427",
+        "PHY F428",
+        "PHY F434"
+      ]
+    },
+    {
+      "name": "Public Policy",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "GS F233",
+        "GS F333"
+      ],
+      "electives": [
+        "HSS F232",
+        "HSS F317",
+        "HSS F322",
+        "HSS F361",
+        "HSS F362",
+        "HSS F363"
+      ]
+    },
+    {
+      "name": "Quantum Information and Technologies",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "BITS F386"
+      ],
+      "electives": [
+        "BITS F463",
+        "BITS F464",
+        "CS F316",
+        "PHY F242",
+        "PHY F345",
+        "CHEM F213",
+        "PHY F420",
+        "PHY F318",
+        "PHY F428",
+        "PHY F434"
+      ]
+    },
+    {
+      "name": "Robotics and Automation",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "BITS F441",
+        "EEE F242",
+        "INSTR F242",
+        "ECE F242",
+        "BITS F327"
+      ],
+      "electives": [
+        "BITS F312",
+        "BITS F415",
+        "BITS F442",
+        "BITS F451",
+        "BITS F464",
+        "ECE F434",
+        "EEE F411",
+        "EEE F422",
+        "EEE G512",
+        "INSTR F343",
+        "INSTR G611",
+        "ME F221",
+        "MF F221",
+        "ME F426",
+        "ME F432",
+        "MF F311",
+        "MSE G511"
+      ]
+    },
+    {
+      "name": "Semiconductor Devices and Technology",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "EEE F437",
+        "EEE F214",
+        "ECE F214",
+        "INSTR F214"
+      ],
+      "electives": [
+        "BITS F415",
+        "EEE F216",
+        "ECE F216",
+        "INSTR F216",
+        "EEE F423",
+        "ECE F423",
+        "INSTR F423",
+        "EEE F477",
+        "EEE G595",
+        "MEL G514",
+        "MST F331",
+        "PHY F341",
+        "PHY F379"
+      ]
+    },
+    {
+      "name": "Supply Chain Analytics",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "BITS F455",
+        "MF F319",
+        "MF F422"
+      ],
+      "electives": [
+        "ME F443",
+        "MF F321",
+        "MF F418",
+        "MF F485",
+        "MATH F212",
+        "ME F320",
+        "MF F320",
+        "MATH F242",
+        "MATH F353"
+      ]
+    },
+    {
+      "name": "Water and Sanitation",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "BIO F216",
+        "BIO F217"
+      ],
+      "electives": [
+        "BIO F266",
+        "SAN G511",
+        "SAN G512",
+        "SAN G513",
+        "SAN G514",
+        "SAN G515"
+      ]
+    },
+    {
+      "name": "Tissue Engineering",
+      "courses": 5,
+      "units": 15,
+      "core": [
+        "BIO F352",
+        "BIO F422",
+        "MST F333"
+      ],
+      "electives": [
+        "BITS F417",
+        "ME F423",
+        "BITS F418",
+        "BIOT F422",
+        "BIO F311",
+        "CHE F414",
+        "CHE F421",
+        "DE G513",
+        "ME F211",
+        "ME F216",
+        "ME F452"
+      ]
+    }
+  ]
+}

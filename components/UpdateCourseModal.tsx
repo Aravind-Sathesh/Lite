@@ -3,6 +3,7 @@ import { ChevronDown } from 'lucide-react';
 import type { Course } from '@/hooks/useCGPA';
 import GlassCard from '@/components/GlassCard';
 import { X, Trash2 } from 'lucide-react';
+import { useColor } from '@/contexts/ColorContext';
 
 interface UpdateCourseModalProps {
   course: Course;
@@ -25,6 +26,9 @@ export default function UpdateCourseModal({
   const [type, setType] = useState(course.type || 'CDC');
   const [isGradeOpen, setIsGradeOpen] = useState(false);
   const [isTypeOpen, setIsTypeOpen] = useState(false);
+  const { minor } = useColor();
+  const [countsToMinor, setCountsToMinor] = useState(course.minor ?? false);
+  const showMinor = Boolean(minor) || countsToMinor;
   const GRADES = ['A', 'A-', 'B', 'B-', 'C', 'C-', 'D', 'E', 'NC', 'GD', 'CLR'];
   const COURSE_TYPES = ['CDC', 'OpEL', 'HuEL', 'DEL'];
 
@@ -43,6 +47,7 @@ export default function UpdateCourseModal({
       credits: creditsNum,
       grade,
       type,
+      minor: countsToMinor,
     });
     onClose();
   };
@@ -194,6 +199,20 @@ export default function UpdateCourseModal({
               className='w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-white/20'
             />
           </div>
+          {/* Minor Checkbox */}
+          {showMinor && (
+            <label className='flex items-center gap-3 text-sm text-neutral-300 cursor-pointer'>
+              <input
+                type='checkbox'
+                checked={countsToMinor}
+                onChange={(e) => setCountsToMinor(e.target.checked)}
+                className='w-4 h-4 cursor-pointer'
+                style={{ accentColor }}
+              />
+              Counts towards my minor{minor ? ` (${minor})` : ''}
+            </label>
+          )}
+
           {/* Action Buttons */}
           <div className='flex gap-3 pt-4'>
             <button

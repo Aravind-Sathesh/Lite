@@ -6,6 +6,8 @@ import GlassCard from '@/components/GlassCard';
 import { X, ChevronDown } from 'lucide-react';
 // Directly import the JSON data so it's available immediately
 import coursesData from '@/data/courses.json';
+import minorsData from '@/data/minors.json';
+import { useColor } from '@/contexts/ColorContext';
 
 const COURSE_LIST = coursesData.courses;
 
@@ -23,6 +25,10 @@ export default function AddCourseModal({
   onAddCourse,
   accentColor,
 }: AddCourseModalProps) {
+  const { minor } = useColor();
+  const minorProgram = minorsData.minors.find((m) => m.name === minor);
+  const showMinor = Boolean(minorProgram);
+  const [countsToMinor, setCountsToMinor] = useState(false);
   const [courseInput, setCourseInput] = useState('');
   const [selectedCourse, setSelectedCourse] = useState<{
     code: string;
@@ -71,6 +77,11 @@ export default function AddCourseModal({
     setSelectedCourse(course);
     setCourseInput(`${course.code} - ${course.name}`);
     setCredits(course.credits.toString()); // Auto-fill credits
+    // Auto-check courses listed under the selected minor in the bulletin
+    setCountsToMinor(
+      !!minorProgram &&
+        [...minorProgram.core, ...minorProgram.electives].includes(course.code),
+    );
     setShowSearch(false);
     setSearchResults([]);
     setIsCustomCourse(false);
@@ -115,6 +126,7 @@ export default function AddCourseModal({
       credits: creditsNum,
       grade,
       type: courseType,
+      minor: showMinor && countsToMinor,
     });
 
     // Reset form
@@ -123,6 +135,7 @@ export default function AddCourseModal({
     setCredits('4');
     setGrade('A');
     setCourseType('CDC');
+    setCountsToMinor(false);
     setIsCustomCourse(false);
   };
 
@@ -301,6 +314,20 @@ export default function AddCourseModal({
               className='w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-white/20'
             />
           </div>
+
+          {/* Minor Checkbox */}
+          {showMinor && (
+            <label className='flex items-center gap-3 text-sm text-neutral-300 cursor-pointer'>
+              <input
+                type='checkbox'
+                checked={countsToMinor}
+                onChange={(e) => setCountsToMinor(e.target.checked)}
+                className='w-4 h-4 cursor-pointer'
+                style={{ accentColor }}
+              />
+              Counts towards my minor{minor ? ` (${minor})` : ''}
+            </label>
+          )}
 
           {/* Action Buttons */}
           <div className='flex gap-3 pt-4'>
