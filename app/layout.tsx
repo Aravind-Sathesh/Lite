@@ -56,7 +56,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' className='bg-neutral-950'>
-      <body className={`font-sans antialiased bg-neutral-950 h-dvh w-full`}>
+      <body className={`font-sans antialiased bg-neutral-950 w-full`}>
         <ColorProvider>
           {children}
           <Toaster />

@@ -17,14 +17,14 @@ export default function Home() {
   }, []);
 
   if (!isMounted) {
-    return <main className='relative w-full h-dvh bg-neutral-950' />;
+    return <main className='fixed inset-0 bg-neutral-950' />;
   }
 
   return (
-    <main className='relative w-full h-dvh overflow-hidden bg-neutral-950 flex justify-center'>
+    <main className='fixed inset-0 overflow-hidden bg-neutral-950 flex justify-center'>
       <div className='w-full max-w-md h-full flex flex-col'>
-        {/* Only this inner area scrolls, so the document never slides under the
-            translucent iOS status bar (which fades the top of the page). */}
+        {/* iOS 26 skips its top scroll-edge blur when the scroller sits in an
+            opaque, viewport-spanning position:fixed shell. */}
         <div
           className='flex-1 overflow-y-auto overscroll-contain pb-32'
           style={{ paddingTop: 'env(safe-area-inset-top)' }}
