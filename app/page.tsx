@@ -17,13 +17,18 @@ export default function Home() {
   }, []);
 
   if (!isMounted) {
-    return <main className='relative w-full min-h-dvh bg-neutral-950' />;
+    return <main className='relative w-full h-dvh bg-neutral-950' />;
   }
 
   return (
-    <main className='relative w-full min-h-dvh overflow-hidden bg-neutral-950 flex justify-center'>
+    <main className='relative w-full h-dvh overflow-hidden bg-neutral-950 flex justify-center'>
       <div className='w-full max-w-md h-full flex flex-col'>
-        <div className='flex-1 overflow-y-auto pb-32'>
+        {/* Only this inner area scrolls, so the document never slides under the
+            translucent iOS status bar (which fades the top of the page). */}
+        <div
+          className='flex-1 overflow-y-auto overscroll-contain pb-32'
+          style={{ paddingTop: 'env(safe-area-inset-top)' }}
+        >
           {activeScreen === 'calculator' && <CalculatorScreen />}
           {activeScreen === 'summary' && <SummaryScreen />}
           {activeScreen === 'settings' && <SettingsScreen />}

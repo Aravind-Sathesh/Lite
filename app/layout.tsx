@@ -56,12 +56,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' className='bg-neutral-950'>
-      <body
-        className={`font-sans antialiased bg-neutral-950 min-h-dvh w-full`}
-        style={{
-          paddingTop: 'env(safe-area-inset-top)',
-        }}
-      >
+      <body className={`font-sans antialiased bg-neutral-950 h-dvh w-full`}>
         <ColorProvider>
           {children}
           <Toaster />
