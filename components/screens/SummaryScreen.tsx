@@ -7,6 +7,15 @@ import GlassCard from '@/components/GlassCard';
 import CGPAChart from '@/components/CGPAChart';
 import minorsData from '@/data/minors.json';
 
+// General Institutional Requirement courses: tagged CDC but not discipline core
+const INSTITUTIONAL_CODES = new Set([
+  'BIO F110', 'BIO F111', 'CHEM F110', 'CHEM F111', 'PHY F110', 'PHY F111',
+  'MATH F111', 'MATH F112', 'MATH F113', 'MATH F211',
+  'EEE F111', 'BITS F111', 'ME F112',
+  'CS F111', 'BITS F110', 'BITS F112',
+  'BITS F225', 'ECON F211', 'MGTS F211',
+]);
+
 export default function SummaryScreen() {
   const { data, calculateCGPA, calculateSGPA } = useCGPA();
   const { accentColor, minor } = useColor();
@@ -25,7 +34,11 @@ export default function SummaryScreen() {
 
   const getCourseTypeStats = () => {
     const cdcCourses = data.semesters.reduce(
-      (sum, sem) => sum + sem.courses.filter((c) => c.type === 'CDC').length,
+      (sum, sem) =>
+        sum +
+        sem.courses.filter(
+          (c) => c.type === 'CDC' && !INSTITUTIONAL_CODES.has(c.code),
+        ).length,
       0
     );
     const cdcCredits = data.semesters.reduce(
@@ -131,7 +144,7 @@ export default function SummaryScreen() {
             <span className='text-sm text-neutral-400'>Core Courses</span>
             <div className='text-right'>
               <div className='text-xl font-semibold text-white'>
-                {stats.cdcCourses - 19} / 14
+                {stats.cdcCourses} / 14
               </div>
             </div>
           </div>
