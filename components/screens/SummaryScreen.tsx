@@ -224,6 +224,9 @@ export default function SummaryScreen() {
                   <th className='text-left py-2 px-2 text-neutral-400 font-medium'>
                     CGPA
                   </th>
+                  <th className='text-left py-2 px-2 text-neutral-400 font-medium'>
+                    Credits
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -264,6 +267,9 @@ export default function SummaryScreen() {
                       </td>
                       <td className='py-2 px-2 text-neutral-400'>
                         {cgpaUpToNow.toFixed(2)}
+                      </td>
+                      <td className='py-2 px-2 text-neutral-400'>
+                        {sem.courses.reduce((s, c) => s + c.credits, 0)}
                       </td>
                     </tr>
                   );
